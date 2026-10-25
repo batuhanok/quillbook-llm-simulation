@@ -1,0 +1,7 @@
+{
+  "contacts": {
+    "business": 3797.0,
+    "accountant": 125.0
+  },
+  "note": "LLM-generated baseline demand; response-time references are dossier 3/8 hours. Comparative proxy, not a calibrated queue."
+}

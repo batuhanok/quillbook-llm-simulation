@@ -1,0 +1,90 @@
+{
+  "profiles": 24,
+  "weeks": 10,
+  "valid_calls": 504,
+  "repair_attempts": 11,
+  "weekly_choices": 240,
+  "messages": 328,
+  "delivered_messages": 304,
+  "probe_answers": 0,
+  "baseline_satisfaction_by_voice": {
+    "B03": 4.0,
+    "O05": 4.0,
+    "B06": 3.0,
+    "B04": 4.0,
+    "O02": 3.0,
+    "B05": 3.0,
+    "O04": 4.0,
+    "B02": 4.0,
+    "O06": 4.0,
+    "O08": 3.0,
+    "O07": 4.0,
+    "A01": 4.0,
+    "O03": 3.0,
+    "B01": 2.0,
+    "A03": 3.0,
+    "O01": 3.0,
+    "A02": 3.0,
+    "A05": 3.0,
+    "A04": 3.0,
+    "A06": 4.0,
+    "B07": 3.0,
+    "B08": 3.0,
+    "A08": 4.0,
+    "A07": 4.0
+  },
+  "metrics": {
+    "goal_1": 87.875,
+    "goal_2": 0.07380952380952381,
+    "goal_3": 0.5483870967741935,
+    "goal_4": 5.661839514501073,
+    "units": {
+      "goal_1": "% of original annual plans due in weeks 9\u201310 renewed",
+      "goal_2": "maximum rolling four-week departure percentage; monthly proxy, not calendar-month measurement",
+      "goal_3": "partner-accountant satisfaction change on model 1\u20135 scale, end minus baseline",
+      "goal_4": "maximum daily population-weighted mean support response hours, excluding January 4\u20135"
+    },
+    "renewed_plans": 3515.0,
+    "due_plans": 4000,
+    "churn_windows": [
+      {
+        "end_week": 4,
+        "pct": 0.0
+      },
+      {
+        "end_week": 5,
+        "pct": 0.0
+      },
+      {
+        "end_week": 6,
+        "pct": 0.0
+      },
+      {
+        "end_week": 7,
+        "pct": 0.0
+      },
+      {
+        "end_week": 8,
+        "pct": 0.0
+      },
+      {
+        "end_week": 9,
+        "pct": 0.07380952380952381
+      },
+      {
+        "end_week": 10,
+        "pct": 0.07380952380952381
+      }
+    ],
+    "accountant_satisfaction_baseline": 3.4516129032258065,
+    "accountant_satisfaction_final": 4.0,
+    "cost_usd": 1380000,
+    "warnings": [
+      "Behavior and intervention effects are synthetic and uncalibrated.",
+      "Support is a baseline-anchored workload proxy, not a calibrated queue; hotline prioritization can harm other customers.",
+      "Partial development runs do not have all board metrics; do not submit them."
+    ]
+  },
+  "integrity_checks": "passed",
+  "development": false
+}

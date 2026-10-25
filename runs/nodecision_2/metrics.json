@@ -1,0 +1,52 @@
+{
+  "goal_1": 83.5,
+  "goal_2": 0.06190476190476191,
+  "goal_3": 0.0,
+  "goal_4": 8.057188470066519,
+  "units": {
+    "goal_1": "% of original annual plans due in weeks 9–10 renewed",
+    "goal_2": "maximum rolling four-week departure percentage; monthly proxy, not calendar-month measurement",
+    "goal_3": "partner-accountant satisfaction change on model 1–5 scale, end minus baseline",
+    "goal_4": "maximum daily population-weighted mean support response hours, excluding January 4–5"
+  },
+  "renewed_plans": 3340.0,
+  "due_plans": 4000,
+  "churn_windows": [
+    {
+      "end_week": 4,
+      "pct": 0.0
+    },
+    {
+      "end_week": 5,
+      "pct": 0.0
+    },
+    {
+      "end_week": 6,
+      "pct": 0.0
+    },
+    {
+      "end_week": 7,
+      "pct": 0.0
+    },
+    {
+      "end_week": 8,
+      "pct": 0.0
+    },
+    {
+      "end_week": 9,
+      "pct": 0.030952380952380953
+    },
+    {
+      "end_week": 10,
+      "pct": 0.06190476190476191
+    }
+  ],
+  "accountant_satisfaction_baseline": 3.4516129032258065,
+  "accountant_satisfaction_final": 3.4516129032258065,
+  "cost_usd": 0,
+  "warnings": [
+    "Behavior and intervention effects are synthetic and uncalibrated.",
+    "Support is a baseline-anchored workload proxy, not a calibrated queue; hotline prioritization can harm other customers.",
+    "Partial development runs do not have all board metrics; do not submit them."
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "O01": {
+    "statement": "I'm running a small construction outfit and rely on Quillbook to get my guys paid and keep up with basic books. Cash is always tight on job sites, so I just need payroll and invoices to work without eating up my time.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "less_flexible",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Starting week 0 on Starter plan. Handled basic construction bookkeeping and payroll smoothly. Aware that January will bring 1099 filing and payroll tax table updates, but with switching being difficult, sticking with Quillbook is the priority."
+      },
+      {
+        "segment": "more_flexible",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.8
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.15
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Starting week 0 on Starter plan. Managing payroll and invoicing as usual. Keeping an eye on year-end 1099 requirements and upcoming tax updates, but currently satisfied with day-to-day operations."
+      }
+    ],
+    "beliefs": [
+      "Quillbook handles my weekly payroll and invoicing adequately for now.",
+      "Year-end 1099 filing and tax table updates will be required in January."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B03": {
+    "statement": "I handle both office admin and the books here, so my time is stretched thin. Quillbook does what we need for invoices and reconciliation, and I really don't have the hours to think about switching systems unless something goes seriously wrong.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.92
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.06
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.02
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before week 1. Quillbook handles our day-to-day invoicing and bank reconciliation smoothly. As the sole person managing finance and administration, switching platforms would be a huge time sink."
+      }
+    ],
+    "beliefs": [
+      "Quillbook is steady enough for our routine bookkeeping.",
+      "Migrating to another software would disrupt my daily administrative workflow."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O04": {
+    "statement": "I run a logistics business and moved here after dealing with an outage at my previous software provider. Right now, Quillbook is handling our bookkeeping and payroll reliably enough on the Starter plan. With January 1099 filing and payroll tax updates coming up, I'm watching closely to make sure everything runs smoothly without disruptions.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. Managing logistics operations with Quillbook Starter for payroll and bookkeeping. Sensitive to reliability due to past rival outage. Preparing for upcoming January 1099 and payroll tax changes."
+      }
+    ],
+    "beliefs": [
+      "Having experienced past outages with a prior provider, software reliability during tax updates is critical for operations.",
+      "Upcoming January 1099 filing and payroll tax table updates will require smooth execution from Quillbook."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B01": {
+    "statement": "I run payroll and books on Quillbook Plus, but at $180 a month the owner is constantly pressing me on costs. I find myself needing support quite often to keep things moving, and with minimum wage adjustments coming in January, I need to make sure our payroll stays smooth without eating up all my time.",
+    "status": "stays but unhappy",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.25
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.55
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.2
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 2,
+        "support_contact_fraction": 0.4,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before week 1. Using Plus plan for bookkeeping and payroll. Frequent support needs and cost pressure from the business owner make the subscription feel expensive. Keeping an eye on upcoming January wage and tax table changes."
+      }
+    ],
+    "beliefs": [
+      "Quillbook Plus is expensive for our current retail budget.",
+      "Upcoming January minimum wage adjustments will require accurate payroll handling.",
+      "Routine bookkeeping and payroll issues often require contacting support."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B05": {
+    "statement": "I manage bookkeeping and payroll for our restaurant. We have had filing problems in the past, so with January payroll tax changes and 1099 filings coming up, I need things to run smoothly and reliably.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.75
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.2
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.1,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. Managing restaurant books and payroll on Starter plan. Keeping an eye on year-end updates due to prior filing issues, but everything is currently steady."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January tax table and 1099 filing updates will require close attention.",
+      "Past filing difficulties make timely resolution and clear guidance important for our operations."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B07": {
+    "statement": "I keep the day-to-day books and handle invoices and reconciliations on the Plus plan. The price feels steep for our small shop, so I regularly keep an eye on alternative software to see if we are getting good value. With upcoming year-end updates, I want to make sure everything stays reliable without extra hassle.",
+    "status": "stays but unhappy",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.35
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.35
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.3
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Starting baseline in November. We rely on Quillbook Plus for daily bookkeeping, invoicing, and bank reconciliation. The cost is a regular concern for our shop, and I am watching for how upcoming year-end updates roll out while keeping an eye on alternative software options."
+      }
+    ],
+    "beliefs": [
+      "I believe Quillbook Plus is expensive for our micro retail bookkeeping needs.",
+      "I believe looking into alternative software options is sensible to ensure we get fair pricing."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O07": {
+    "statement": "I use Quillbook for our restaurant's routine bookkeeping and bank reconciliations while handling payroll separately. Things are working as expected right now, so I am staying put.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Starting assessment before week 1. Running basic bookkeeping, invoices, and bank reconciliation on Starter plan. External payroll workflow is separate. Operations are steady."
+      }
+    ],
+    "beliefs": [
+      "Quillbook currently handles core bookkeeping and reconciliation reliably enough for daily restaurant operations.",
+      "Handling payroll outside Quillbook insulates my staff pay adjustments from any potential Quillbook payroll issues."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B04": {
+    "statement": "I run the day-to-day books and payroll for our construction firm. With the January 1099 changes and tax table updates approaching, I'll be keeping a close eye on testing verification from Quillbook, but right now our baseline workflow is running steadily.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. Routine bookkeeping, invoicing, bank reconciliations, and payroll are functioning normally. I am tracking upcoming January 1099 and payroll tax table updates closely, as I will need clear evidence of proper testing before year-end."
+      }
+    ],
+    "beliefs": [
+      "January 1099 filing and payroll tax table updates require careful verification before year-end.",
+      "Switching platforms has high friction, so maintaining process stability is preferred unless disruptions occur."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O08": {
+    "statement": "I'm managing our invoices on Quillbook and keeping an eye on how smoothly everything runs. Reconciling high invoice volumes is still a chore while waiting on better reconciliation tools, but for now it handles what we need.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.8
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.15
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.1,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before Week 1. Using Pro plan for client billing and bookkeeping. Matching high invoice volume takes time without smoother reconciliation tools, but operations are stable."
+      }
+    ],
+    "beliefs": [
+      "Reconciliation tools could be improved for high invoice volume.",
+      "Upcoming January 1099 filing rules will need preparation."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B02": {
+    "statement": "I manage multi-location bookkeeping for our logistics business on Quillbook Starter. Our payroll is handled externally, but we do rely on Quillbook for invoices, reconciliation, and upcoming 1099 filings. Everything is running steadily right now as we prepare for year-end.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Starting baseline prior to week 1. Operating Quillbook Starter for multi-location bookkeeping with external payroll. Preparing for upcoming January 1099 filings and monitoring routine workflow stability across our branches."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 requirements will require smooth coordination across our operating locations.",
+      "Bookkeeping stability is distinct from external payroll processing for our logistics workflow."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O03": {
+    "statement": "Running the shop takes most of my day, so I stick with what I know in Quillbook for basic invoicing and bank balances. The monthly price feels steep, but learning a whole new system is a hassle I want to avoid.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.7
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.25
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before week 1: relying on familiar screens for day-to-day bookkeeping and keeping an eye on costs."
+      }
+    ],
+    "beliefs": [
+      "Quillbook is familiar enough to manage routine shop bookkeeping without extra technical headaches.",
+      "Switching to a different platform would require significant time and effort to learn."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O05": {
+    "statement": "Quillbook handles my invoices and bookkeeping well enough right now, though I keep an eye on alternative software just in case. With the upcoming January 1099 filing requirements, I'm watching to see how smoothly the tax updates roll out.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.75
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.05
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.2
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Baseline setup heading into November. Day-to-day books and invoicing are running smoothly on the Pro plan. I need 1099 filings handled properly in January, so I will monitor year-end readiness as updates approach."
+      }
+    ],
+    "beliefs": [
+      "New IRS 1099 filing rules will take effect starting January 1.",
+      "Past industry-wide tax updates have experienced seasonal slowdowns.",
+      "Switching platforms is technically straightforward if better alternatives offer clearer value."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B06": {
+    "statement": "I manage our books and daily reconciliation in Quillbook. It handles our invoicing and basics well enough right now, but with year-end 1099 filing coming up in January, I really need reliable performance and honest follow-through on the promised reconciliation features.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Starting week 0 baseline. We rely on Quillbook Pro for core bookkeeping, invoices, and bank reconciliation. Looking ahead to January 1099 filing obligations and waiting to see how the expected reconciliation tool updates develop."
+      }
+    ],
+    "beliefs": [
+      "Quillbook handles our routine bookkeeping, but switching systems would be high friction for us.",
+      "Upcoming January 1099 filings and tax table updates will require dependable performance.",
+      "Honest delivery on reconciliation feature commitments is essential for my workflow planning."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O06": {
+    "statement": "We rely on Quillbook Plus for our daily bookkeeping and payroll. Everything is currently operating smoothly, though with the upcoming January 1099 filing and payroll tax table changes, I will be watching closely to ensure updates go off without disruption.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before week 1. Our construction business is running bookkeeping and payroll on Quillbook Plus. System is functioning as expected. We have upcoming year-end tax table and 1099 filing obligations, so reliability and deadline visibility remain top priorities."
+      }
+    ],
+    "beliefs": [
+      "Quillbook is currently handling our ongoing bookkeeping and payroll needs effectively.",
+      "The upcoming January tax table updates and 1099 filing rules will require timely execution."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "O02": {
+    "statement": "Running the restaurant keeps me on my feet all day, so I just need our payroll and bookkeeping in Quillbook to run smoothly without eating up my time with support tickets.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before November week 1. Using Quillbook Pro for bookkeeping and payroll. Need smooth payroll tax updates and minimum wage adjustments ahead of January without operational disruptions."
+      }
+    ],
+    "beliefs": [
+      "Quillbook currently handles our day-to-day bookkeeping and payroll needs.",
+      "Upcoming January wage and tax table adjustments will require reliable updates."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "B08": {
+    "statement": "I handle our logistics bookkeeping and payroll on Quillbook Starter. Everything is running smoothly enough for now, though I am keeping an eye on the upcoming January tax table and 1099 filing updates.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Starting baseline before Week 1. Handling day-to-day books and payroll on Quillbook Starter. High switching friction makes staying the practical choice, but I need to make sure year-end payroll and 1099 updates go smoothly."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 and payroll tax updates could introduce workflow friction based on past sector experiences.",
+      "Reconciling external accountant advice with our day-to-day logistics operations requires ongoing care."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A01": {
+    "statement": "Starting into the year-end prep with my microbusiness clients. Quillbook has been reliable for our daily bookkeeping and payroll needs, though we have upcoming 1099 and wage changes in January to prepare for.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.75
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.25
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 0 baseline: Advising microbusiness clients using Quillbook. Workflow is steady ahead of January tax table updates and filing requirements."
+      }
+    ],
+    "beliefs": [
+      "Year-end filing changes will require attention across client accounts in January."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A05": {
+    "statement": "I advise several retail clients who use Quillbook for their bookkeeping and payroll. Given their tight margins, reliable software and cost control are essential. With January wage changes and 1099 filings coming up, I'm keeping a close eye on how well the platform handles the upcoming year-end updates.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.7
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.25
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.05
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Entering November with standard retail client operations. Monitoring planned year-end tax table and 1099 updates scheduled for late December and January. Switching software carries high friction for retail businesses, so stability is my primary concern."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January minimum-wage adjustments and 1099 filings will require reliable payroll and reporting updates from Quillbook."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A02": {
+    "statement": "I am keeping an eye on how Quillbook prepares for the upcoming year-end payroll and 1099 updates for my restaurant clients. For now, operations are steady, but reliability during January adjustments will be key.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.6
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.4
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.0,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. I advise two restaurant clients using Quillbook. Looking ahead to scheduled January payroll tax and wage updates, system reliability and prompt processing will be my main focus."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 and wage adjustments will test software reliability.",
+      "Restaurant payroll continuity depends on timely tax table updates."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A04": {
+    "statement": "I have four clients using Quillbook right now while the rest of my practice uses another platform. Things are running adequately for now, though with the January tax table and 1099 updates approaching, I'll be keeping a close eye on how smooth the year-end transition is before offering any strong software recommendations.",
+    "status": "neutral",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "neutral",
+            "fraction": 0.75
+          },
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.2
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.05
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. I advise fifty business clients across mixed sectors, with four currently on Quillbook. Routine features like invoicing and reconciliations are handling daily work fine, but I maintain familiarity with rival platforms as a reference point for upcoming year-end filing requirements."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 and payroll tax changes will require smooth system updates from all accounting platforms.",
+      "Rival platforms provide a viable alternative for clients if year-end compliance or workflows encounter friction."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A03": {
+    "statement": "With January 1099 filings and wage adjustments coming up for my construction clients, I need to make sure Quillbook handles the updates cleanly. For now, things are functional, so I am taking a wait-and-see approach.",
+    "status": "neutral",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.35
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.65
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.1,
+        "renewal_fraction": null,
+        "memory": "Starting evaluation before week 1. Construction clients have upcoming 1099 and payroll tax obligations. Monitoring Quillbook's readiness for year-end updates."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 and payroll changes will require reliable software updates.",
+      "Quillbook currently handles basic bookkeeping and reporting adequately."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A07": {
+    "statement": "We are heading into year-end prep with our logistics clients on Quillbook. The upcoming January tax and minimum-wage updates are on our radar, but everything is currently running smoothly as expected.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.8
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.2
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. Managing logistics clients with steady workflows. Keeping an eye on scheduled year-end updates and January 1099 compliance needs."
+      }
+    ],
+    "beliefs": [
+      "Quillbook currently handles our routine client bookkeeping reliably.",
+      "Year-end compliance changes in January will require attention to 1099 filings and payroll updates."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A06": {
+    "statement": "Getting ready for year-end prep. With January tax and 1099 changes coming up, I'll keep an eye on software readiness, but our current workflows for services clients are steady.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.85
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.15
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "November 2026 baseline. Advising practice clients using Quillbook for invoicing, reconciliation, and payroll. Watching for upcoming January payroll tax table updates and new 1099 filing requirements."
+      }
+    ],
+    "beliefs": [
+      "Quillbook is reliable for current day-to-day client invoicing and reporting.",
+      "Upcoming January 1099 and payroll adjustments will require monitoring closer to year-end."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A08": {
+    "statement": "We are heading into year-end planning with our clients on Quillbook. The upcoming January 1099 and payroll changes are critical, so I need to be certain the platform handles the transition smoothly before making strong recommendations either way.",
+    "status": "neutral",
+    "segments": [
+      {
+        "segment": "less_flexible",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.6
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.4
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. For clients with high switching friction, maintaining continuity on Quillbook is practical, though we are monitoring year-end compliance readiness closely."
+      },
+      {
+        "segment": "more_flexible",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.5
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.4
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.1
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Starting baseline at week 0. For clients capable of migrating easily, we remain balanced and will see how Quillbook handles upcoming tax updates before confirming long-term advice."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 and payroll tax table updates require careful verification.",
+      "Client continuity matters, but software reliability during year-end filing is paramount."
+    ],
+    "influences": [],
+    "replies": []
+  }
+}

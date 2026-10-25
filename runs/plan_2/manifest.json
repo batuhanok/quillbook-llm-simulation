@@ -1,0 +1,2915 @@
+{
+  "engine": "complete-runner-v2",
+  "model_version": "calendar-grounded-v3",
+  "sources": {
+    "engine.py": "1d860650b9ca218ff19d7462c804086d1aba287188cdd1b85a675f910b70ed0b",
+    "engine_core.py": "65cdfec3d02fe935524e1cdb51c7944fd7cf40288af3faed61406634fe5a9a07",
+    "actions.py": "2d059cb75e2603342cfd49371a7797bd6c40fd0d43849f27d3ecce02d41159e2"
+  },
+  "company": "quillbook",
+  "type": "plan",
+  "seed": 43,
+  "model": "gemini-3.7-flash",
+  "decisions": [
+    {
+      "week": 5,
+      "target": "everyone",
+      "actions": [
+        {
+          "action": "Renewal price for plans renewing in weeks 9 and 10",
+          "level": "+10% instead of +20%"
+        },
+        {
+          "action": "40 extra year-end support staff for 6 weeks",
+          "level": "on"
+        },
+        {
+          "action": "Outside year-end update testing team",
+          "level": "on"
+        }
+      ],
+      "message": "Year-end is coming and we want you to be ready. If your annual plan renews in late December or early January, the increase is 10%, not the 20% we planned. We have added 40 support specialists through mid-January and an outside team is testing our January 1 update for the new IRS 1099 system, state minimum wages and tax tables. Exporting your data stays free, always.",
+      "channels": [
+        "email",
+        "in-app"
+      ],
+      "why": [
+        "A third of annual plans renew in January; a 20% rise at the riskiest moment invites churn.",
+        "Year-end support answers in 8 hours; the board wants 4.",
+        "Testing is only 80% done; an outside team lowers the chance of payroll failures on Jan 1."
+      ]
+    },
+    {
+      "week": 8,
+      "target": "everyone",
+      "actions": [
+        {
+          "action": "Dedicated accountant phone line for 6 weeks",
+          "level": "on"
+        },
+        {
+          "action": "Public status page, incident reports and accountant text alerts",
+          "level": "on"
+        },
+        {
+          "action": "Accountant commission 10% → 20%, 6 months",
+          "level": "on"
+        }
+      ],
+      "message": "With IRS phone lines closed during the federal shutdown and the January 1 changes here, you need answers from us fast. From today partner accountants have a dedicated Quillbook phone line through early February, and for the next six months your commission on renewing and new clients doubles from 10% to 20%. Our public status page reports any Quillbook incident with text alerts to you. We are also sorry for the late deposits in November.",
+      "channels": [
+        "email",
+        "accountants"
+      ],
+      "why": [
+        "IRS phone lines are closed, so accountants lose a source of answers during the January 1 switch.",
+        "Accountants decide for 60% of customers; a direct line, honest incident reports and a higher commission keep them with us.",
+        "The commission rewards keeping clients through the 1099 deadline and February, when the CEO fears they move."
+      ]
+    }
+  ],
+  "selectors": {},
+  "profiles": [
+    {
+      "id": "O01",
+      "group": "business owners",
+      "sector": "construction",
+      "company_size": "micro",
+      "represented_businesses": 4200,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 2100,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 2520,
+      "plan": "Starter",
+      "decision_authority": "approves",
+      "backstory": "tight cash flow; dependable payday matters",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "high",
+        "switching_friction": "low",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "medium",
+        "patience": "low",
+        "forgiveness": "high",
+        "tax_rule_concern": "medium",
+        "support_need": "medium",
+        "source_checking": "low",
+        "social_susceptibility": "low",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Alex Morgan",
+      "role": "owner-operator",
+      "background": "O01 owns a micro construction business using Quillbook for bookkeeping and payroll. Their established context: tight cash flow; dependable payday matters. They approve software decisions for the business. Fictional role/workflow context: Balances construction work, supplier payments and payroll preparation. Cash pressure makes both dependable payday and the software bill relevant; a convenient workaround may still consume time needed elsewhere. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Approves the software bill while managing construction work. Low technical comfort may require help checking an export even when perceived switching friction is low; a manageable move and an effortless move are different things.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A01",
+          "A07"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "less_flexible",
+          "share": 0.5,
+          "difference": "High switching friction; substantial migration workload."
+        },
+        {
+          "id": "more_flexible",
+          "share": 0.5,
+          "difference": "Low switching friction; credible migration capacity."
+        }
+      ],
+      "segment_assumption": "50/50 is a sensitivity assumption, not survey data. Two histories in one LLM call are not independent samples."
+    },
+    {
+      "id": "O02",
+      "group": "business owners",
+      "sector": "restaurants",
+      "company_size": "small",
+      "represented_businesses": 2400,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 1200,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 1440,
+      "plan": "Pro",
+      "decision_authority": "approves",
+      "backstory": "seasonal workload; little time to chase support",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "low",
+        "switching_friction": "medium",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "high",
+        "patience": "low",
+        "forgiveness": "low",
+        "tax_rule_concern": "medium",
+        "support_need": "medium",
+        "source_checking": "medium",
+        "social_susceptibility": "low",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Jamie Rivera",
+      "role": "restaurant owner-operator",
+      "background": "O02 owns a small restaurants business using Quillbook for bookkeeping and payroll. Their established context: seasonal workload; little time to chase support. They approve software decisions for the business. Fictional role/workflow context: Balances service shifts and seasonal staffing with checking the books. Chasing a support answer competes with running the restaurant; changing software also requires time away from operations. Fictional January operational assumptions: no 1099 filing need assigned to this representative business; needs a minimum-wage-related pay adjustment; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": false,
+        "minimum_wage_adjustment_required": true,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Personally approves changes but must fit evaluation around restaurant service and staffing. A cheaper alternative still has to justify time spent learning it and obtaining useful support.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A01",
+          "A02",
+          "A03"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "O03",
+      "group": "business owners",
+      "sector": "retail",
+      "company_size": "micro",
+      "represented_businesses": 4300,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 2150,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 2580,
+      "plan": "Plus",
+      "decision_authority": "approves",
+      "backstory": "low technical comfort; values familiar workflows",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "low",
+        "switching_friction": "high",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "low",
+        "patience": "low",
+        "forgiveness": "medium",
+        "tax_rule_concern": "medium",
+        "support_need": "high",
+        "source_checking": "low",
+        "social_susceptibility": "low",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Taylor Brooks",
+      "role": "retail owner-operator",
+      "background": "O03 owns a micro retail business using Quillbook for bookkeeping. Their established context: low technical comfort; values familiar workflows. They approve software decisions for the business. Fictional role/workflow context: Uses familiar screens to check invoices and balances alongside running the shop. An unfamiliar workflow can mean extra checking; continuity and the cost of staying both matter when considering alternatives. Fictional January operational assumptions: no 1099 filing need assigned to this representative business; needs a minimum-wage-related pay adjustment; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": false,
+        "minimum_wage_adjustment_required": true,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Can authorize a change but needs help judging unfamiliar workflows. Familiarity has practical value; dissatisfaction alone does not establish that a replacement is ready or suitable.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A04",
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "O04",
+      "group": "business owners",
+      "sector": "logistics",
+      "company_size": "small",
+      "represented_businesses": 2300,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 1150,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 1380,
+      "plan": "Starter",
+      "decision_authority": "approves",
+      "backstory": "previous rival outage; wants evidence of reliability",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "medium",
+        "switching_friction": "medium",
+        "technical_comfort": "medium",
+        "uncertainty_tolerance": "medium",
+        "patience": "low",
+        "forgiveness": "high",
+        "tax_rule_concern": "high",
+        "support_need": "high",
+        "source_checking": "medium",
+        "social_susceptibility": "low",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Jordan Ellis",
+      "role": "logistics business owner",
+      "background": "O04 owns a small logistics business using Quillbook for bookkeeping and payroll. Their established context: previous rival outage; wants evidence of reliability. They approve software decisions for the business. Fictional role/workflow context: Coordinates operating commitments with bookkeeping and payroll. A previous rival outage is part of their own history, not evidence about Quillbook; reliability claims and the practical work of migration can pull in different directions. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Can authorize migration and can examine a workflow comparison. The previous rival outage supplies personal context, not evidence that every rival is unreliable or that Quillbook will perform better.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A06",
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "O05",
+      "group": "business owners",
+      "sector": "services",
+      "company_size": "micro",
+      "represented_businesses": 4300,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 2150,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 2580,
+      "plan": "Pro",
+      "decision_authority": "approves",
+      "backstory": "technically comfortable; willing to compare rivals",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "medium",
+        "switching_friction": "low",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "high",
+        "patience": "medium",
+        "forgiveness": "medium",
+        "tax_rule_concern": "high",
+        "support_need": "low",
+        "source_checking": "low",
+        "social_susceptibility": "low",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Casey Bennett",
+      "role": "services business owner",
+      "background": "O05 owns a micro services business using Quillbook for bookkeeping. Their established context: technically comfortable; willing to compare rivals. They approve software decisions for the business. Fictional role/workflow context: Handles client work alongside the books and is comfortable comparing software workflows. Time saved, subscription value and the effort of moving records are competing considerations rather than a predetermined reason to switch. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Can authorize changes and independently investigate export and setup requirements. Technical comfort makes investigation feasible but does not establish that a rival has been tested or chosen.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "O06",
+      "group": "business owners",
+      "sector": "construction",
+      "company_size": "medium",
+      "represented_businesses": 1500,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 750,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 900,
+      "plan": "Plus",
+      "decision_authority": "approves",
+      "backstory": "has IT help; cares about auditability and deadlines",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "medium",
+        "switching_friction": "low",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "low",
+        "patience": "medium",
+        "forgiveness": "high",
+        "tax_rule_concern": "high",
+        "support_need": "low",
+        "source_checking": "medium",
+        "social_susceptibility": "medium",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Morgan Reed",
+      "role": "construction company owner",
+      "background": "O06 owns a medium construction business using Quillbook for bookkeeping and payroll. Their established context: has IT help; cares about auditability and deadlines. They approve software decisions for the business. Fictional role/workflow context: Can involve internal IT help when checking a software problem or assessing migration. Needs understandable records and deadline visibility; technical help does not remove disruption or make vendor promises verified facts. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Approves software choices and can ask existing IT help to assess data portability and operational checks. A technically feasible move still needs a business reason and a workable timing plan.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "O07",
+      "group": "business owners",
+      "sector": "restaurants",
+      "company_size": "micro",
+      "represented_businesses": 4000,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 2000,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 2400,
+      "plan": "Starter",
+      "decision_authority": "approves",
+      "backstory": "uses Quillbook for bookkeeping; payroll elsewhere; trusts accountant",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "high",
+        "switching_friction": "high",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "medium",
+        "patience": "medium",
+        "forgiveness": "low",
+        "tax_rule_concern": "low",
+        "support_need": "medium",
+        "source_checking": "low",
+        "social_susceptibility": "medium",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Riley Parker",
+      "role": "restaurant owner-operator",
+      "background": "O07 owns a micro restaurants business using Quillbook for bookkeeping. Their established context: uses Quillbook for bookkeeping; payroll elsewhere; trusts accountant. They approve software decisions for the business. Fictional role/workflow context: Uses Quillbook for the books while payroll is handled elsewhere. Values accountant advice but must weigh it against work in the restaurant; a Quillbook payroll incident would not directly delay their own payroll through that product. Fictional January operational assumptions: no 1099 filing need assigned to this representative business; needs a minimum-wage-related pay adjustment; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": false,
+        "minimum_wage_adjustment_required": true,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Signs off on changes after considering accountant advice. Keeping bookkeeping and the separate payroll workflow consistent matters; trust in an accountant is influential rather than automatic agreement.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A05",
+          "A07"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "O08",
+      "group": "business owners",
+      "sector": "services",
+      "company_size": "small",
+      "represented_businesses": 2400,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 1200,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 1440,
+      "plan": "Pro",
+      "decision_authority": "approves",
+      "backstory": "high invoice volume; awaiting reconciliation feature",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "high",
+        "switching_friction": "low",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "high",
+        "patience": "medium",
+        "forgiveness": "medium",
+        "tax_rule_concern": "low",
+        "support_need": "medium",
+        "source_checking": "medium",
+        "social_susceptibility": "medium",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Avery Collins",
+      "role": "services business owner",
+      "background": "O08 owns a small services business using Quillbook for bookkeeping. Their established context: high invoice volume; awaiting reconciliation feature. They approve software decisions for the business. Fictional role/workflow context: Frequent invoices make matching payments and reconciling records a recurring task. The expected reconciliation feature matters to workflow planning, alongside the reliability and cost of the tools already in use. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Approves this business's software decision; may seek advice.",
+        "practical_constraints": "Approves changes but may need help checking a replacement despite low perceived switching friction. Frequent invoice reconciliation creates a concrete comparison task; an anticipated feature is not evidence of an existing capability.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A05",
+          "A06"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B01",
+      "group": "in-house bookkeepers",
+      "sector": "retail",
+      "company_size": "small",
+      "represented_businesses": 2500,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 1250,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 1500,
+      "plan": "Plus",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "frequent support contact; owner pressures costs",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "high",
+        "switching_friction": "medium",
+        "technical_comfort": "medium",
+        "uncertainty_tolerance": "low",
+        "patience": "high",
+        "forgiveness": "low",
+        "tax_rule_concern": "low",
+        "support_need": "high",
+        "source_checking": "low",
+        "social_susceptibility": "medium",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Linda Novak",
+      "role": "in-house bookkeeper",
+      "background": "B01 keeps the books for a small retail business using Quillbook for bookkeeping and payroll. Their established context: frequent support contact; owner pressures costs. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Handles retail bookkeeping and payroll preparation while explaining software costs to the owner. Support contact takes time from routine work; an option that simplifies their day may still need the owner's spending approval. Fictional January operational assumptions: no 1099 filing need assigned to this representative business; needs a minimum-wage-related pay adjustment; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": false,
+        "minimum_wage_adjustment_required": true,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can investigate and recommend software; the owner approves the spending and move. Must explain both support time and costs, rather than treating the option easiest for the bookkeeper as already authorized.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "group": "in-house bookkeepers",
+      "sector": "logistics",
+      "company_size": "medium",
+      "represented_businesses": 1400,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 700,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 840,
+      "plan": "Starter",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "multi-location bookkeeping; payroll outside Quillbook",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "low",
+        "switching_friction": "low",
+        "technical_comfort": "medium",
+        "uncertainty_tolerance": "medium",
+        "patience": "high",
+        "forgiveness": "medium",
+        "tax_rule_concern": "medium",
+        "support_need": "high",
+        "source_checking": "medium",
+        "social_susceptibility": "medium",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Jasmine Patel",
+      "role": "in-house bookkeeper coordinating locations",
+      "background": "B02 keeps the books for a medium logistics business using Quillbook for bookkeeping. Their established context: multi-location bookkeeping; payroll outside Quillbook. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Collects records across locations and checks that bookkeeping stays consistent. Payroll is outside Quillbook, so bookkeeping disruption and payroll-system disruption are distinct exposures; migration also requires coordinating other people's records. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can coordinate a replacement assessment across locations and recommend it to the owner. Must consider record handoffs and compatibility with the separate payroll provider; multiple locations do not establish multiple states.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A04",
+          "A06"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "group": "in-house bookkeepers",
+      "sector": "services",
+      "company_size": "micro",
+      "represented_businesses": 3200,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 1600,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 1920,
+      "plan": "Pro",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "sole finance worker; limited migration time",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "low",
+        "switching_friction": "high",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "high",
+        "patience": "high",
+        "forgiveness": "high",
+        "tax_rule_concern": "medium",
+        "support_need": "low",
+        "source_checking": "low",
+        "social_susceptibility": "high",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Sam Walker",
+      "role": "office administrator with in-house bookkeeping duties",
+      "background": "B03 keeps the books for a micro services business using Quillbook for bookkeeping. Their established context: sole finance worker; limited migration time. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Combines the books with office administration in a micro services firm rather than belonging to a separate finance department. As the sole finance worker, must fit corrections or migration into existing work; lack of time need not imply satisfaction. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can investigate tools but needs owner approval. High technical comfort does not create spare working time: finance duties share an office-administration role, so migration preparation competes with ordinary work.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A01",
+          "A03",
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "group": "in-house bookkeepers",
+      "sector": "construction",
+      "company_size": "small",
+      "represented_businesses": 2500,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 1250,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 1500,
+      "plan": "Plus",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "detailed process controls; asks for testing evidence",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "low",
+        "switching_friction": "high",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "low",
+        "patience": "high",
+        "forgiveness": "low",
+        "tax_rule_concern": "high",
+        "support_need": "low",
+        "source_checking": "high",
+        "social_susceptibility": "high",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Dana Chen",
+      "role": "in-house bookkeeper responsible for process checks",
+      "background": "B04 keeps the books for a small construction business using Quillbook for bookkeeping and payroll. Their established context: detailed process controls; asks for testing evidence. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Maintains construction bookkeeping and payroll checks and prepares information for the owner. Can ask what has actually been tested and keep track of unresolved questions; a reassuring message and usable evidence are different inputs to assess. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can prepare a structured testing and migration assessment for the owner. Technical ability supports scrutiny, while established process controls make validation and handover work important before committing.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A02",
+          "A05",
+          "A07"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "group": "in-house bookkeepers",
+      "sector": "restaurants",
+      "company_size": "medium",
+      "represented_businesses": 1300,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 650,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 780,
+      "plan": "Starter",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "past filing problem; wants accountable resolution",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "medium",
+        "switching_friction": "medium",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "medium",
+        "patience": "low",
+        "forgiveness": "high",
+        "tax_rule_concern": "high",
+        "support_need": "medium",
+        "source_checking": "low",
+        "social_susceptibility": "high",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Robin Hughes",
+      "role": "in-house bookkeeper handling filing preparation",
+      "background": "B05 keeps the books for a medium restaurants business using Quillbook for bookkeeping and payroll. Their established context: past filing problem; wants accountable resolution. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Coordinates restaurant bookkeeping and payroll records. A past filing problem provides personal context, not evidence of a new failure; evaluating explanations and practical recovery work can matter alongside the subscription bill. Fictional January operational assumptions: needs 1099 filing; needs a minimum-wage-related pay adjustment; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": true,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can recommend changes but needs owner approval and may require technical help. Prior filing difficulty makes usable explanations relevant; it does not prove current errors or dictate rejection of the company.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "group": "in-house bookkeepers",
+      "sector": "services",
+      "company_size": "small",
+      "represented_businesses": 1300,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 650,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 780,
+      "plan": "Pro",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "reconciliation tool expected; values honest commitments",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "medium",
+        "switching_friction": "high",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "high",
+        "patience": "low",
+        "forgiveness": "low",
+        "tax_rule_concern": "high",
+        "support_need": "medium",
+        "source_checking": "medium",
+        "social_susceptibility": "high",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Mei Foster",
+      "role": "in-house bookkeeper",
+      "background": "B06 keeps the books for a small services business using Quillbook for bookkeeping. Their established context: reconciliation tool expected; values honest commitments. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Organizes services bookkeeping around existing reconciliation work and the expected new tool. A changed feature commitment may alter work planning; can weigh an honest explanation against the cost of continuing manual work or migrating. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can document reconciliation workload and recommend a tool to the owner. Limited technical comfort and high switching friction constrain implementation even if feature commitments are disappointing.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A07"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "group": "in-house bookkeepers",
+      "sector": "retail",
+      "company_size": "micro",
+      "represented_businesses": 3100,
+      "represented_accountants": 0,
+      "runs_payroll": false,
+      "annual_plans": 1550,
+      "renewal_counts": {
+        "9": 250,
+        "10": 0
+      },
+      "partner_managed_businesses": 1860,
+      "plan": "Plus",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "researches rivals; fair and clear pricing matters",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "medium",
+        "switching_friction": "low",
+        "technical_comfort": "medium",
+        "uncertainty_tolerance": "low",
+        "patience": "low",
+        "forgiveness": "medium",
+        "tax_rule_concern": "high",
+        "support_need": "high",
+        "source_checking": "low",
+        "social_susceptibility": "high",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Sharon Fields",
+      "role": "retail office administrator with in-house bookkeeping duties",
+      "background": "B07 keeps the books for a micro retail business using Quillbook for bookkeeping. Their established context: researches rivals; fair and clear pricing matters. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Combines day-to-day shop administration with keeping the books in a micro firm. Looks at competing software and discusses costs with the owner; headline prices, workable features and migration effort may point to different options. Fictional January operational assumptions: no 1099 filing need assigned to this representative business; needs a minimum-wage-related pay adjustment; payroll-tax table updates remain relevant, with payroll handled outside Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": false,
+        "minimum_wage_adjustment_required": true,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "outside Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can compare prices and investigate alternatives, but the owner must approve a change. Low switching friction does not prove a rival or lower tier meets the reporting needs; unknown capabilities must be checked.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation"
+        ],
+        "connected_accountants": [
+          "A06",
+          "A07"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "group": "in-house bookkeepers",
+      "sector": "logistics",
+      "company_size": "small",
+      "represented_businesses": 1300,
+      "represented_accountants": 0,
+      "runs_payroll": true,
+      "annual_plans": 650,
+      "renewal_counts": {
+        "9": 0,
+        "10": 250
+      },
+      "partner_managed_businesses": 780,
+      "plan": "Starter",
+      "decision_authority": "operates_and_advises_owner",
+      "backstory": "works with external accountant; balances conflicting advice",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "high",
+        "switching_friction": "high",
+        "technical_comfort": "medium",
+        "uncertainty_tolerance": "medium",
+        "patience": "low",
+        "forgiveness": "high",
+        "tax_rule_concern": "low",
+        "support_need": "high",
+        "source_checking": "medium",
+        "social_susceptibility": "low",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Cameron Lewis",
+      "role": "in-house bookkeeper coordinating external advice",
+      "background": "B08 keeps the books for a small logistics business using Quillbook for bookkeeping and payroll. Their established context: works with external accountant; balances conflicting advice. They operate the software and advise the owner on software decisions. Fictional role/workflow context: Prepares logistics bookkeeping and payroll records and exchanges questions with connected external accountants. Must translate advice into work the business can actually perform and explain conflicting recommendations to the owner. Fictional January operational assumptions: needs 1099 filing; no minimum-wage-related pay adjustment assigned; payroll-tax table updates remain relevant, with payroll handled in Quillbook. No state, legal rate or confirmed software incident is asserted. These are representative circumstances, not cohort-wide exposure percentages.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "representative business; within-cohort exposure shares unspecified",
+        "needs_1099_filing": true,
+        "minimum_wage_adjustment_required": false,
+        "payroll_tax_table_updates_relevant": true,
+        "payroll_provider": "Quillbook",
+        "state": null,
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline."
+      },
+      "decision_context": {
+        "authority": "Operates software and recommends a change; owner approval is needed.",
+        "practical_constraints": "Can gather migration requirements and discuss them with connected accountants, then advise the owner. Must reconcile conflicting advice with the work of maintaining logistics books and payroll during a move.",
+        "workflow_dependencies": [
+          "bookkeeping",
+          "invoices",
+          "bank reconciliation",
+          "Quillbook payroll"
+        ],
+        "connected_accountants": [
+          "A05",
+          "A08"
+        ],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A01",
+      "group": "partner accountants",
+      "practice_clients_total": 10,
+      "quillbook_clients_per_practice": 2,
+      "represented_businesses": 0,
+      "represented_accountants": 500,
+      "managed_quillbook_businesses": 1000,
+      "decision_authority": "advises_clients",
+      "backstory": "microbusiness specialist; hands-on support",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "high",
+        "switching_friction": "low",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "high",
+        "patience": "medium",
+        "forgiveness": "medium",
+        "tax_rule_concern": "low",
+        "support_need": "low",
+        "source_checking": "low",
+        "social_susceptibility": "low",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Carla Jimenez",
+      "role": "microbusiness accounting practitioner",
+      "background": "A01 advises a practice with 10 total business clients, of whom 2 use Quillbook. Their established context: microbusiness specialist; hands-on support. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Provides hands-on help to microbusiness clients. Advice must fit clients with limited administrative time; helping them through an issue and assessing another tool both consume practice capacity. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can assess alternatives for clients and explain practical tradeoffs. Technical comfort and low switching friction do not grant permission to move every client; each client has its own authority and workload.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "group": "partner accountants",
+      "practice_clients_total": 20,
+      "quillbook_clients_per_practice": 2,
+      "represented_businesses": 0,
+      "represented_accountants": 500,
+      "managed_quillbook_businesses": 1000,
+      "decision_authority": "advises_clients",
+      "backstory": "restaurant specialist; payroll concentration",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "high",
+        "switching_friction": "medium",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "low",
+        "patience": "medium",
+        "forgiveness": "high",
+        "tax_rule_concern": "low",
+        "support_need": "low",
+        "source_checking": "medium",
+        "social_susceptibility": "low",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Bill Hartmann",
+      "role": "accounting practitioner specializing in restaurants",
+      "background": "A02 advises a practice with 20 total business clients, of whom 2 use Quillbook. Their established context: restaurant specialist; payroll concentration. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Works with restaurant clients and payroll-related questions. The timing of a problem can matter alongside its duration; must balance client continuity, preparation work and the credibility of information received. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can investigate alternatives and recommend them to restaurant clients. Practice migration work competes with payroll and closing support; client urgency and readiness may differ even under the same advice.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "group": "partner accountants",
+      "practice_clients_total": 35,
+      "quillbook_clients_per_practice": 3,
+      "represented_businesses": 0,
+      "represented_accountants": 400,
+      "managed_quillbook_businesses": 1200,
+      "decision_authority": "advises_clients",
+      "backstory": "construction specialist; compliance cautious",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "low",
+        "switching_friction": "low",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "medium",
+        "patience": "medium",
+        "forgiveness": "low",
+        "tax_rule_concern": "high",
+        "support_need": "medium",
+        "source_checking": "low",
+        "social_susceptibility": "low",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Nina Rossi",
+      "role": "accounting practitioner specializing in construction",
+      "background": "A03 advises a practice with 35 total business clients, of whom 3 use Quillbook. Their established context: construction specialist; compliance cautious. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Helps construction clients organize records and compliance work. Wants to understand unresolved filing or payroll questions; professional concern is a reason to assess evidence, not advance knowledge that an incident will occur. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can advise construction clients, but low technical comfort may require help validating setup details despite low perceived switching friction. Compliance caution should prompt questions rather than unsupported certainty.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "group": "partner accountants",
+      "practice_clients_total": 50,
+      "quillbook_clients_per_practice": 4,
+      "represented_businesses": 0,
+      "represented_accountants": 400,
+      "managed_quillbook_businesses": 1600,
+      "decision_authority": "advises_clients",
+      "backstory": "mixed sectors; experienced rival user",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "low",
+        "switching_friction": "medium",
+        "technical_comfort": "low",
+        "uncertainty_tolerance": "high",
+        "patience": "medium",
+        "forgiveness": "medium",
+        "tax_rule_concern": "medium",
+        "support_need": "medium",
+        "source_checking": "medium",
+        "social_susceptibility": "low",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "James Whitaker",
+      "role": "accounting practitioner serving mixed sectors",
+      "background": "A04 advises a practice with 50 total business clients, of whom 4 use Quillbook. Their established context: mixed sectors; experienced rival user. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Has experience using a rival and can compare familiar workflows across client needs. That experience supplies a reference point, not proof the rival will handle a future event better; migration still requires coordinating client records. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can draw on established rival experience when advising clients, without claiming a fresh comparison or completed migration. Clients may weigh the same familiar alternative differently.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "group": "partner accountants",
+      "practice_clients_total": 75,
+      "quillbook_clients_per_practice": 6,
+      "represented_businesses": 0,
+      "represented_accountants": 400,
+      "managed_quillbook_businesses": 2400,
+      "decision_authority": "advises_clients",
+      "backstory": "retail specialist; clients under cash pressure",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "low",
+        "switching_friction": "high",
+        "technical_comfort": "medium",
+        "uncertainty_tolerance": "low",
+        "patience": "high",
+        "forgiveness": "low",
+        "tax_rule_concern": "medium",
+        "support_need": "high",
+        "source_checking": "low",
+        "social_susceptibility": "medium",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Ellen Strand",
+      "role": "accounting practitioner specializing in retail",
+      "background": "A05 advises a practice with 75 total business clients, of whom 6 use Quillbook. Their established context: retail specialist; clients under cash pressure. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Advises retail clients under cash pressure while keeping the practice's own finances separate from theirs. A software saving, service problem or credit can affect clients differently; recommendations need to account for the work of changing tools. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can compare the burden of remaining with the burden of moving cash-constrained retail clients. High switching friction limits practical options; the client's price concern is distinct from the practice's own cash position.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A06",
+      "group": "partner accountants",
+      "practice_clients_total": 100,
+      "quillbook_clients_per_practice": 4,
+      "represented_businesses": 0,
+      "represented_accountants": 300,
+      "managed_quillbook_businesses": 1200,
+      "decision_authority": "advises_clients",
+      "backstory": "services specialist; technology confident",
+      "attributes": {
+        "price_sensitivity": "low",
+        "cash_pressure": "medium",
+        "switching_friction": "medium",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "medium",
+        "patience": "high",
+        "forgiveness": "medium",
+        "tax_rule_concern": "high",
+        "support_need": "high",
+        "source_checking": "medium",
+        "social_susceptibility": "medium",
+        "preferred_channel": "email",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Omar Haddad",
+      "role": "accounting practitioner specializing in services",
+      "background": "A06 advises a practice with 100 total business clients, of whom 4 use Quillbook. Their established context: services specialist; technology confident. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Is comfortable evaluating technology and explaining workflow changes to services clients. Can assess useful features alongside operational reliability; technical confidence does not establish that a company claim is correct. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can investigate technical options and translate findings for services clients. Each recommendation must account for migration work and client consent; technical confidence is not verified knowledge of missing product details.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A07",
+      "group": "partner accountants",
+      "practice_clients_total": 125,
+      "quillbook_clients_per_practice": 24,
+      "represented_businesses": 0,
+      "represented_accountants": 300,
+      "managed_quillbook_businesses": 7200,
+      "decision_authority": "advises_clients",
+      "backstory": "large logistics practice; influential professional network",
+      "attributes": {
+        "price_sensitivity": "medium",
+        "cash_pressure": "medium",
+        "switching_friction": "high",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "high",
+        "patience": "high",
+        "forgiveness": "high",
+        "tax_rule_concern": "high",
+        "support_need": "low",
+        "source_checking": "low",
+        "social_susceptibility": "medium",
+        "preferred_channel": "in-app",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "value for money",
+          "control",
+          "reliability"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Rachel Goldberg",
+      "role": "accounting practitioner in a large logistics practice",
+      "background": "A07 advises a practice with 125 total business clients, of whom 24 use Quillbook. Their established context: large logistics practice; influential professional network. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Coordinates advice in a large practice and exchanges views through the existing professional network. Reputational consequences and client continuity both matter; professional influence does not grant access to private messages or guarantee agreement. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can discuss alternatives through the existing professional links, but high switching friction remains relevant to a large practice. Influence does not give access to private conversations or make clients follow advice automatically.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "main",
+          "share": 1.0,
+          "difference": "Use the base profile; no additional split."
+        }
+      ]
+    },
+    {
+      "id": "A08",
+      "group": "partner accountants",
+      "practice_clients_total": 150,
+      "quillbook_clients_per_practice": 32,
+      "represented_businesses": 0,
+      "represented_accountants": 300,
+      "managed_quillbook_businesses": 9600,
+      "decision_authority": "advises_clients",
+      "backstory": "large mixed practice; weighs reputation against commercial incentives",
+      "attributes": {
+        "price_sensitivity": "high",
+        "cash_pressure": "medium",
+        "switching_friction": "low",
+        "technical_comfort": "high",
+        "uncertainty_tolerance": "low",
+        "patience": "high",
+        "forgiveness": "low",
+        "tax_rule_concern": "high",
+        "support_need": "low",
+        "source_checking": "medium",
+        "social_susceptibility": "medium",
+        "preferred_channel": "phone",
+        "information_sources": [
+          "accountant or professional peers",
+          "company notices"
+        ],
+        "values": [
+          "reliability",
+          "fairness",
+          "convenience"
+        ]
+      },
+      "assumption_note": "Synthetic coverage design, not measured segment frequencies; plan and attitude assignments need sensitivity checks.",
+      "profile_version": "v7-mixed-network",
+      "name": "Sofia Lindqvist",
+      "role": "accounting practitioner in a large mixed practice",
+      "background": "A08 advises a practice with 150 total business clients, of whom 32 use Quillbook. Their established context: large mixed practice; weighs reputation against commercial incentives. Their software advice can strongly influence clients; a recommendation is not an automatic client departure. Fictional role/workflow context: Balances a mixed client portfolio, practice workload and professional reputation. Commercial incentives can be considered alongside client interests; neither an incentive nor a company explanation determines the recommendation in advance. The remaining practice clients are outside the Quillbook count; their software is unspecified. The total-portfolio interpretation is a modeling assumption, not an explicit dossier fact. Fictional January operational context from existing links: 1099 filing need is present among linked representative businesses; minimum-wage adjustment need is present among linked representative businesses. Payroll-tax updates remain relevant. State coverage and other practice clients' details are unspecified; no extra client counts or confirmed incident are implied.",
+      "background_basis": "User-approved fictional role/workflow enrichment of existing profile context; not measured customer research. Existing traits, quantities and links are unchanged. No new demographics, legal claims or predetermined reactions; choices remain with the LLM.",
+      "january_change_exposure": {
+        "scope": "linked representative businesses; not a complete practice-client census",
+        "client_1099_filing_needs": "present among linked representative businesses",
+        "client_minimum_wage_adjustment_needs": "present among linked representative businesses",
+        "payroll_tax_table_updates_relevant": true,
+        "state_coverage": "unspecified; no single-state or multi-state assignment",
+        "basis": "User-approved fictional operational exposure design, not measured frequencies or verified state law. Describes the representative situation, not identical behavior or exposure for every cohort member. No wage adjustment does not remove payroll-tax or applicable filing obligations. A requirement is not evidence of an outage, an error or a missed deadline. Accountant coverage is derived from existing links, not invented extra clients."
+      },
+      "decision_context": {
+        "authority": "Advises client businesses; a recommendation does not authorize or execute every client's move.",
+        "practical_constraints": "Can evaluate alternatives and discuss commercial terms while protecting client interests. Low switching friction does not imply an immediate migration or that commission determines the recommendation; clients retain separate choices.",
+        "workflow_dependencies": [
+          "client bookkeeping continuity",
+          "client filing preparation",
+          "advice to linked businesses"
+        ],
+        "connected_accountants": [],
+        "relationship_basis": "Use only existing network links and received messages. Advice can be relevant without being followed; no new relationship or adviser reputation score is implied.",
+        "migration_progress": "Not preset. The LLM may choose and record investigation, evaluation, preparation, commitment, waiting or switching in weekly memories. No rival feature or completed action is assumed.",
+        "renewal_evaluation": "Explain price, continuity and practical alternatives using this profile's existing traits and actual weekly information. Neither a positive statement nor dissatisfaction fixes the cohort renewal fraction.",
+        "basis": "User-approved fictional distribution grounded in existing roles, technical comfort, switching friction and backstories; not a measured frequency or a predetermined choice."
+      },
+      "segments": [
+        {
+          "id": "less_flexible",
+          "share": 0.5,
+          "difference": "High switching friction; substantial migration workload."
+        },
+        {
+          "id": "more_flexible",
+          "share": 0.5,
+          "difference": "Low switching friction; credible migration capacity."
+        }
+      ],
+      "segment_assumption": "50/50 is a sensitivity assumption, not survey data. Two histories in one LLM call are not independent samples."
+    }
+  ],
+  "links": [
+    {
+      "source": "A04",
+      "target": "O03",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 967,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.22488372093023257
+    },
+    {
+      "source": "O03",
+      "target": "A04",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 967,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.604375
+    },
+    {
+      "source": "A08",
+      "target": "O03",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 1613,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.37511627906976747
+    },
+    {
+      "source": "O03",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 1613,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.16802083333333334
+    },
+    {
+      "source": "A08",
+      "target": "O06",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 900,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.6
+    },
+    {
+      "source": "O06",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 900,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.09375
+    },
+    {
+      "source": "A08",
+      "target": "O05",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 2580,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.6
+    },
+    {
+      "source": "O05",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 2580,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.26875
+    },
+    {
+      "source": "A08",
+      "target": "O04",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 713,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.31
+    },
+    {
+      "source": "O04",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 713,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.07427083333333333
+    },
+    {
+      "source": "A06",
+      "target": "O04",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 667,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.29
+    },
+    {
+      "source": "O04",
+      "target": "A06",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 667,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.5558333333333333
+    },
+    {
+      "source": "A06",
+      "target": "O08",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 59,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.024583333333333332
+    },
+    {
+      "source": "O08",
+      "target": "A06",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 59,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.049166666666666664
+    },
+    {
+      "source": "A05",
+      "target": "O08",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 1381,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.5754166666666667
+    },
+    {
+      "source": "O08",
+      "target": "A05",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 1381,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.5754166666666667
+    },
+    {
+      "source": "A05",
+      "target": "O07",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 70,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.0175
+    },
+    {
+      "source": "O07",
+      "target": "A05",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 70,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.029166666666666667
+    },
+    {
+      "source": "A07",
+      "target": "O07",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 2330,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.5825
+    },
+    {
+      "source": "O07",
+      "target": "A07",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 2330,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.3236111111111111
+    },
+    {
+      "source": "A07",
+      "target": "O01",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 2024,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.4819047619047619
+    },
+    {
+      "source": "O01",
+      "target": "A07",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 2024,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.2811111111111111
+    },
+    {
+      "source": "A01",
+      "target": "O01",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 496,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1180952380952381
+    },
+    {
+      "source": "O01",
+      "target": "A01",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 496,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.496
+    },
+    {
+      "source": "A01",
+      "target": "O02",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 109,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.04541666666666667
+    },
+    {
+      "source": "O02",
+      "target": "A01",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 109,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.109
+    },
+    {
+      "source": "A03",
+      "target": "O02",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 726,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.3025
+    },
+    {
+      "source": "O02",
+      "target": "A03",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 726,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.605
+    },
+    {
+      "source": "A02",
+      "target": "O02",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 605,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.2520833333333333
+    },
+    {
+      "source": "O02",
+      "target": "A02",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 605,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.605
+    },
+    {
+      "source": "A03",
+      "target": "B03",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 474,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.148125
+    },
+    {
+      "source": "B03",
+      "target": "A03",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 474,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.395
+    },
+    {
+      "source": "A01",
+      "target": "B03",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 395,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1234375
+    },
+    {
+      "source": "B03",
+      "target": "A01",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 395,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.395
+    },
+    {
+      "source": "A08",
+      "target": "B03",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 1051,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.3284375
+    },
+    {
+      "source": "B03",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 1051,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.10947916666666667
+    },
+    {
+      "source": "A08",
+      "target": "B05",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 780,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.6
+    },
+    {
+      "source": "B05",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 780,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.08125
+    },
+    {
+      "source": "A08",
+      "target": "B01",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 1500,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.6
+    },
+    {
+      "source": "B01",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 1500,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.15625
+    },
+    {
+      "source": "A08",
+      "target": "B08",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 463,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.35615384615384615
+    },
+    {
+      "source": "B08",
+      "target": "A08",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 463,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.04822916666666666
+    },
+    {
+      "source": "A05",
+      "target": "B08",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 317,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.24384615384615385
+    },
+    {
+      "source": "B08",
+      "target": "A05",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 317,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.13208333333333333
+    },
+    {
+      "source": "A05",
+      "target": "B04",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 632,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.2528
+    },
+    {
+      "source": "B04",
+      "target": "A05",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 632,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.2633333333333333
+    },
+    {
+      "source": "A02",
+      "target": "B04",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 395,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.158
+    },
+    {
+      "source": "B04",
+      "target": "A02",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 395,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.395
+    },
+    {
+      "source": "A07",
+      "target": "B04",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 473,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1892
+    },
+    {
+      "source": "B04",
+      "target": "A07",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 473,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.06569444444444444
+    },
+    {
+      "source": "A07",
+      "target": "B06",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 780,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.6
+    },
+    {
+      "source": "B06",
+      "target": "A07",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 780,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.10833333333333334
+    },
+    {
+      "source": "A07",
+      "target": "B07",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 1593,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.5138709677419355
+    },
+    {
+      "source": "B07",
+      "target": "A07",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 1593,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.22125
+    },
+    {
+      "source": "A06",
+      "target": "B07",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 267,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.08612903225806452
+    },
+    {
+      "source": "B07",
+      "target": "A06",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 267,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.2225
+    },
+    {
+      "source": "A06",
+      "target": "B02",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 207,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.14785714285714285
+    },
+    {
+      "source": "B02",
+      "target": "A06",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 207,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1725
+    },
+    {
+      "source": "A04",
+      "target": "B02",
+      "kind": "accountant_advises_client",
+      "businesses_linked": 633,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.4521428571428571
+    },
+    {
+      "source": "B02",
+      "target": "A04",
+      "kind": "client_asks_accountant",
+      "businesses_linked": 633,
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.395625
+    },
+    {
+      "source": "O01",
+      "target": "O02",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O02",
+      "target": "O01",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O02",
+      "target": "O03",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O03",
+      "target": "O02",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O03",
+      "target": "O04",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O04",
+      "target": "O03",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O04",
+      "target": "O05",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O05",
+      "target": "O04",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O05",
+      "target": "O06",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O06",
+      "target": "O05",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O06",
+      "target": "O07",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O07",
+      "target": "O06",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O07",
+      "target": "O08",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O08",
+      "target": "O07",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O08",
+      "target": "O01",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "O01",
+      "target": "O08",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B01",
+      "target": "B02",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B02",
+      "target": "B01",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B02",
+      "target": "B03",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B03",
+      "target": "B02",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B03",
+      "target": "B04",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B04",
+      "target": "B03",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B04",
+      "target": "B05",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B05",
+      "target": "B04",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B05",
+      "target": "B06",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B06",
+      "target": "B05",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B06",
+      "target": "B07",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B07",
+      "target": "B06",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B07",
+      "target": "B08",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B08",
+      "target": "B07",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B08",
+      "target": "B01",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "B01",
+      "target": "B08",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A01",
+      "target": "A02",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A02",
+      "target": "A01",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A02",
+      "target": "A03",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A03",
+      "target": "A02",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A03",
+      "target": "A04",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A04",
+      "target": "A03",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A04",
+      "target": "A05",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A05",
+      "target": "A04",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A05",
+      "target": "A06",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A06",
+      "target": "A05",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A06",
+      "target": "A07",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A07",
+      "target": "A06",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A07",
+      "target": "A08",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A08",
+      "target": "A07",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A08",
+      "target": "A01",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    },
+    {
+      "source": "A01",
+      "target": "A08",
+      "kind": "peer",
+      "initial_trust": "medium",
+      "recipient_reach_share": 0.1
+    }
+  ],
+  "events": [
+    {
+      "id": "ba5b8990016be9f04f033ccf856ef191",
+      "week": 3,
+      "text": "**Paychecks late.** This week, some direct deposits run through Quillbook payroll arrived hours late, and some employees were paid a day late. Posts are spreading in a bookkeepers' Facebook group and on Reddit. Another payroll provider also reported delays.\n\nKnown: no money was lost; Quillbook's engineers are working with its partner bank.\nNot known: how many payrolls; whose fault it is; whether it will happen again.",
+      "title": "Company update — week 3",
+      "audience_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "O01",
+        "O02",
+        "O04",
+        "O06"
+      ],
+      "affected": [
+        "O01",
+        "B08"
+      ],
+      "hypothetical": false,
+      "source_sha256": "2b0b72a17c51dbfb72fb617f322bb8a0890b77654826281f61b931402d982fd3",
+      "original_announcement": {
+        "id": "ba5b8990016be9f04f033ccf856ef191",
+        "title": "Company update — week 3",
+        "body": "**Paychecks late.** This week, some direct deposits run through Quillbook payroll arrived hours late, and some employees were paid a day late. Posts are spreading in a bookkeepers' Facebook group and on Reddit. Another payroll provider also reported delays.\n\nKnown: no money was lost; Quillbook's engineers are working with its partner bank.\nNot known: how many payrolls; whose fault it is; whether it will happen again.",
+        "company_id": "quillbook",
+        "publish_at": "2026-10-24T14:00:00+03:00",
+        "published_at": "2026-10-24T14:00:00+03:00"
+      },
+      "exposure_note": "Official wording and week are preserved. The user approved example direct experiences; awareness routing and representative exposure are scenario assumptions.",
+      "exposure_review_status": "User approved two fictional example voices after plain-language clarification.",
+      "direct_exposure_note": "O01 and B08 are representative fictional situations with a payroll-delay experience. This does not imply every member of their cohorts was affected. Actual affected count, affected share, fault and recurrence remain unknown.",
+      "initial_awareness_rule": "Payroll users and in-house bookkeepers plus accountants linked to payroll businesses initially receive the report. Other voices may learn through existing private message links. This is a modeling interpretation, not measured reach.",
+      "network_routing_revision": "Recomputed existing awareness rule for mixed-sparse-v2 links: all in-house bookkeepers, Quillbook-payroll owners, and accountants with links to Quillbook payroll businesses. Direct illustrative experiences unchanged."
+    },
+    {
+      "id": "user-supplied-week4-6391b8b16506",
+      "week": 4,
+      "text": "All late deposits arrived by Saturday morning. The cause was a fault at Quillbook's partner bank in processing payment files, made worse by a slow job in Quillbook's own system that sent some files late. Quillbook has fixed its job. About 1 in 20 payroll customers had at least one employee paid late.",
+      "title": "Payroll-delay follow-up (local label; dashboard title not supplied)",
+      "audience_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "O01",
+        "O02",
+        "O04",
+        "O06"
+      ],
+      "affected": [],
+      "hypothetical": false,
+      "source_sha256": "e67e479adaa0370e473423ba4bca243a7b657a2c2dfaf8784ab459a055348816",
+      "original_announcement": {
+        "body": "All late deposits arrived by Saturday morning. The cause was a fault at Quillbook's partner bank in processing payment files, made worse by a slow job in Quillbook's own system that sent some files late. Quillbook has fixed its job. About 1 in 20 payroll customers had at least one employee paid late.",
+        "scenario_week": 4,
+        "release_week_basis": "User explicitly confirmed dashboard week 4 in chat.",
+        "received_at": "2026-10-24T11:33:35.796882+00:00",
+        "provenance": "User pasted announcement text; dashboard ID, title and timestamp were not supplied.",
+        "local_reference_id": "user-supplied-week4-6391b8b16506",
+        "body_sha256": "6391b8b16506f7c3d5f2e78a73b427735403e7eef587ee6f126be304c07f8c9a"
+      },
+      "updates_source_ids": [
+        "ba5b8990016be9f04f033ccf856ef191"
+      ],
+      "timing_note": "This is a week-4 follow-up to the week-3 incident. All late deposits arrived by Saturday morning as stated in the release; it does not announce another delay. Quillbook fixed its slow file-sending job. It does not establish that the bank fixed every issue or guarantee non-recurrence.",
+      "exposure_note": "Same initial report audience as the original release; network routing remains a modeling assumption. The update is news, not a new direct-impact assignment. Prior O01/B08 direct examples remain illustrative, not whole-cohort incidence.",
+      "reported_incidence": {
+        "numerator": 1,
+        "denominator": 20,
+        "population": "Quillbook payroll customers with at least one employee paid late",
+        "approximate": true,
+        "dossier_payroll_customers": 18000,
+        "derived_approximate_affected_businesses": 900,
+        "derivation": "18000 / 20; approximate count, not an employee count or per-profile distribution."
+      },
+      "official_announcement_id": "d50cd1b7ca64b7062639a9d83d1eb369",
+      "official_export_provenance": {
+        "source_file": "data/releases/2026-10-24_160039_team-08_announcements.json",
+        "source_sha256": "306e817956141c73182809cd03ecdc337370b73ce5d646d7792ed77ec17aacf3",
+        "announcement": {
+          "id": "d50cd1b7ca64b7062639a9d83d1eb369",
+          "title": "Company update — week 4",
+          "body": "All late deposits arrived by Saturday morning. The cause was a fault at Quillbook's partner bank in processing payment files, made worse by a slow job in Quillbook's own system that sent some files late. Quillbook has fixed its job. About 1 in 20 payroll customers had at least one employee paid late.",
+          "company_id": "quillbook",
+          "publish_at": "2026-10-24T14:30:00+03:00",
+          "published_at": "2026-10-24T14:30:00+03:00"
+        }
+      },
+      "identity_note": "Stable local simulation ID retained to preserve existing call keys; official dashboard ID mapped as provenance alias. No duplicate week-4 event.",
+      "network_routing_revision": "Recomputed existing awareness rule for mixed-sparse-v2 links: all in-house bookkeepers, Quillbook-payroll owners, and accountants with links to Quillbook payroll businesses. Direct illustrative experiences unchanged."
+    },
+    {
+      "id": "244a9674d2f18508b1f1f5889193391b",
+      "week": 7,
+      "text": "**Government shutdown.** Overnight, Congress missed its funding deadline, and parts of the federal government shut down. Some federal workers have been sent home; others, such as air traffic controllers and TSA officers, must keep working without pay. Nobody knows how long it will last.\n\nKnown: Social Security payments and the Postal Service continue.\nNot known: how long it will last; when federal workers will be paid; which services will slow down.\n\nIRS phone lines are closed and some processing is slower. Small Business Administration loans are paused. Some customers sell to the federal government and may be paid late.",
+      "title": "Government shutdown",
+      "audience_ids": [],
+      "affected": [],
+      "hypothetical": false,
+      "source_sha256": "306e817956141c73182809cd03ecdc337370b73ce5d646d7792ed77ec17aacf3",
+      "original_announcement": {
+        "id": "244a9674d2f18508b1f1f5889193391b",
+        "title": "Government shutdown",
+        "body": "**Government shutdown.** Overnight, Congress missed its funding deadline, and parts of the federal government shut down. Some federal workers have been sent home; others, such as air traffic controllers and TSA officers, must keep working without pay. Nobody knows how long it will last.\n\nKnown: Social Security payments and the Postal Service continue.\nNot known: how long it will last; when federal workers will be paid; which services will slow down.\n\nIRS phone lines are closed and some processing is slower. Small Business Administration loans are paused. Some customers sell to the federal government and may be paid late.",
+        "company_id": "quillbook",
+        "publish_at": "2026-10-24T16:00:00+03:00",
+        "published_at": "2026-10-24T16:00:00+03:00"
+      },
+      "exposure_note": "Public shutdown report made available to all 24 voices. Initial universal awareness is a model assumption; no firm-level government receivable or SBA exposure is assigned.",
+      "timing_note": "This public shutdown announcement is released in week 7 only. Duration, affected services and federal-worker pay timing are unknown. No reopening is confirmed and no legal deadline extension is established. Individual profiles do not specify federal-vendor status, a pending SBA loan, furloughed staff or an actually overdue federal invoice: discuss those risks conditionally rather than inventing personal impact."
+    },
+    {
+      "id": "ce2191f1b12cd517466e97dd741d9089",
+      "week": 8,
+      "title": "Government shutdown — update",
+      "text": "The Senate passed a short-term funding bill; the House plans to vote after Christmas. Federal workers have been told they will get back pay once the government reopens. Their December 30 paycheck may be missed.",
+      "audience_ids": [],
+      "affected": [],
+      "hypothetical": false,
+      "updates_source_ids": [
+        "244a9674d2f18508b1f1f5889193391b"
+      ],
+      "source_sha256": "6838105838560e8f92cce68c5fefd0c6ca2db92fdb2894758c0b8d2f62516537",
+      "original_announcement": {
+        "id": "ce2191f1b12cd517466e97dd741d9089",
+        "title": "Government shutdown — update",
+        "body": "The Senate passed a short-term funding bill; the House plans to vote after Christmas. Federal workers have been told they will get back pay once the government reopens. Their December 30 paycheck may be missed.",
+        "company_id": "quillbook",
+        "publish_at": "2026-10-24T16:30:00+03:00",
+        "published_at": "2026-10-24T16:30:00+03:00"
+      },
+      "exposure_note": "Public update available to all24 from week8; no newly assigned personal federal-contract, federal-worker or SBA exposure. This routing is a modeling assumption.",
+      "timing_note": "Week8 is December21–27. Senate passage is confirmed; the House only plans a vote after Christmas. No government reopening, House passage or restored IRS/SBA services is confirmed. Federal workers were told back pay will come once government reopens; it has not been paid. December30 is in week9 and a missed paycheck is a possibility, not an already observed loss. Do not invent a shutdown end date or Quillbook responsibility for federal wages."
+    }
+  ],
+  "end_week": 10,
+  "probes": false,
+  "development": false,
+  "assumptions": {
+    "baseline_support_staff": 100,
+    "baseline_weekly_support_contacts": 0.02,
+    "staff_productivity": 1.0,
+    "testing_workload_factor": 0.9,
+    "freeze_workload_factor": 0.8,
+    "hotline_priority_share": 0.1,
+    "note": "Uncalibrated support/reliability assumptions. No automatic trust or retention benefit. Test alternative settings."
+  },
+  "interactions_off": false,
+  "conversation_version": "reasoned-calendar-v2"
+}

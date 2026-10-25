@@ -1,0 +1,9 @@
+{
+  "company": "quillbook",
+  "type": "nodecision",
+  "seed": 43,
+  "model": "gemini-3.7-flash",
+  "model_version": "calendar-grounded-v3",
+  "decisions": [],
+  "development": false
+}

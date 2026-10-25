@@ -1,0 +1,161 @@
+{
+  "events": [
+    {
+      "id": "ba5b8990016be9f04f033ccf856ef191",
+      "week": 3,
+      "text": "**Paychecks late.** This week, some direct deposits run through Quillbook payroll arrived hours late, and some employees were paid a day late. Posts are spreading in a bookkeepers' Facebook group and on Reddit. Another payroll provider also reported delays.\n\nKnown: no money was lost; Quillbook's engineers are working with its partner bank.\nNot known: how many payrolls; whose fault it is; whether it will happen again.",
+      "title": "Company update \u2014 week 3",
+      "audience_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "O01",
+        "O02",
+        "O04",
+        "O06"
+      ],
+      "affected": [
+        "O01",
+        "B08"
+      ],
+      "hypothetical": false,
+      "source_sha256": "2b0b72a17c51dbfb72fb617f322bb8a0890b77654826281f61b931402d982fd3",
+      "original_announcement": {
+        "id": "ba5b8990016be9f04f033ccf856ef191",
+        "title": "Company update \u2014 week 3",
+        "body": "**Paychecks late.** This week, some direct deposits run through Quillbook payroll arrived hours late, and some employees were paid a day late. Posts are spreading in a bookkeepers' Facebook group and on Reddit. Another payroll provider also reported delays.\n\nKnown: no money was lost; Quillbook's engineers are working with its partner bank.\nNot known: how many payrolls; whose fault it is; whether it will happen again.",
+        "company_id": "quillbook",
+        "publish_at": "2026-10-24T14:00:00+03:00",
+        "published_at": "2026-10-24T14:00:00+03:00"
+      },
+      "exposure_note": "Official wording and week are preserved. The user approved example direct experiences; awareness routing and representative exposure are scenario assumptions.",
+      "exposure_review_status": "User approved two fictional example voices after plain-language clarification.",
+      "direct_exposure_note": "O01 and B08 are representative fictional situations with a payroll-delay experience. This does not imply every member of their cohorts was affected. Actual affected count, affected share, fault and recurrence remain unknown.",
+      "initial_awareness_rule": "Payroll users and in-house bookkeepers plus accountants linked to payroll businesses initially receive the report. Other voices may learn through existing private message links. This is a modeling interpretation, not measured reach.",
+      "network_routing_revision": "Recomputed existing awareness rule for mixed-sparse-v2 links: all in-house bookkeepers, Quillbook-payroll owners, and accountants with links to Quillbook payroll businesses. Direct illustrative experiences unchanged."
+    },
+    {
+      "id": "user-supplied-week4-6391b8b16506",
+      "week": 4,
+      "text": "All late deposits arrived by Saturday morning. The cause was a fault at Quillbook's partner bank in processing payment files, made worse by a slow job in Quillbook's own system that sent some files late. Quillbook has fixed its job. About 1 in 20 payroll customers had at least one employee paid late.",
+      "title": "Payroll-delay follow-up (local label; dashboard title not supplied)",
+      "audience_ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "O01",
+        "O02",
+        "O04",
+        "O06"
+      ],
+      "affected": [],
+      "hypothetical": false,
+      "source_sha256": "e67e479adaa0370e473423ba4bca243a7b657a2c2dfaf8784ab459a055348816",
+      "original_announcement": {
+        "body": "All late deposits arrived by Saturday morning. The cause was a fault at Quillbook's partner bank in processing payment files, made worse by a slow job in Quillbook's own system that sent some files late. Quillbook has fixed its job. About 1 in 20 payroll customers had at least one employee paid late.",
+        "scenario_week": 4,
+        "release_week_basis": "User explicitly confirmed dashboard week 4 in chat.",
+        "received_at": "2026-10-24T11:33:35.796882+00:00",
+        "provenance": "User pasted announcement text; dashboard ID, title and timestamp were not supplied.",
+        "local_reference_id": "user-supplied-week4-6391b8b16506",
+        "body_sha256": "6391b8b16506f7c3d5f2e78a73b427735403e7eef587ee6f126be304c07f8c9a"
+      },
+      "updates_source_ids": [
+        "ba5b8990016be9f04f033ccf856ef191"
+      ],
+      "timing_note": "This is a week-4 follow-up to the week-3 incident. All late deposits arrived by Saturday morning as stated in the release; it does not announce another delay. Quillbook fixed its slow file-sending job. It does not establish that the bank fixed every issue or guarantee non-recurrence.",
+      "exposure_note": "Same initial report audience as the original release; network routing remains a modeling assumption. The update is news, not a new direct-impact assignment. Prior O01/B08 direct examples remain illustrative, not whole-cohort incidence.",
+      "reported_incidence": {
+        "numerator": 1,
+        "denominator": 20,
+        "population": "Quillbook payroll customers with at least one employee paid late",
+        "approximate": true,
+        "dossier_payroll_customers": 18000,
+        "derived_approximate_affected_businesses": 900,
+        "derivation": "18000 / 20; approximate count, not an employee count or per-profile distribution."
+      },
+      "official_announcement_id": "d50cd1b7ca64b7062639a9d83d1eb369",
+      "official_export_provenance": {
+        "source_file": "data/releases/2026-10-24_160039_team-08_announcements.json",
+        "source_sha256": "306e817956141c73182809cd03ecdc337370b73ce5d646d7792ed77ec17aacf3",
+        "announcement": {
+          "id": "d50cd1b7ca64b7062639a9d83d1eb369",
+          "title": "Company update \u2014 week 4",
+          "body": "All late deposits arrived by Saturday morning. The cause was a fault at Quillbook's partner bank in processing payment files, made worse by a slow job in Quillbook's own system that sent some files late. Quillbook has fixed its job. About 1 in 20 payroll customers had at least one employee paid late.",
+          "company_id": "quillbook",
+          "publish_at": "2026-10-24T14:30:00+03:00",
+          "published_at": "2026-10-24T14:30:00+03:00"
+        }
+      },
+      "identity_note": "Stable local simulation ID retained to preserve existing call keys; official dashboard ID mapped as provenance alias. No duplicate week-4 event.",
+      "network_routing_revision": "Recomputed existing awareness rule for mixed-sparse-v2 links: all in-house bookkeepers, Quillbook-payroll owners, and accountants with links to Quillbook payroll businesses. Direct illustrative experiences unchanged."
+    },
+    {
+      "id": "244a9674d2f18508b1f1f5889193391b",
+      "week": 7,
+      "text": "**Government shutdown.** Overnight, Congress missed its funding deadline, and parts of the federal government shut down. Some federal workers have been sent home; others, such as air traffic controllers and TSA officers, must keep working without pay. Nobody knows how long it will last.\n\nKnown: Social Security payments and the Postal Service continue.\nNot known: how long it will last; when federal workers will be paid; which services will slow down.\n\nIRS phone lines are closed and some processing is slower. Small Business Administration loans are paused. Some customers sell to the federal government and may be paid late.",
+      "title": "Government shutdown",
+      "audience_ids": [],
+      "affected": [],
+      "hypothetical": false,
+      "source_sha256": "306e817956141c73182809cd03ecdc337370b73ce5d646d7792ed77ec17aacf3",
+      "original_announcement": {
+        "id": "244a9674d2f18508b1f1f5889193391b",
+        "title": "Government shutdown",
+        "body": "**Government shutdown.** Overnight, Congress missed its funding deadline, and parts of the federal government shut down. Some federal workers have been sent home; others, such as air traffic controllers and TSA officers, must keep working without pay. Nobody knows how long it will last.\n\nKnown: Social Security payments and the Postal Service continue.\nNot known: how long it will last; when federal workers will be paid; which services will slow down.\n\nIRS phone lines are closed and some processing is slower. Small Business Administration loans are paused. Some customers sell to the federal government and may be paid late.",
+        "company_id": "quillbook",
+        "publish_at": "2026-10-24T16:00:00+03:00",
+        "published_at": "2026-10-24T16:00:00+03:00"
+      },
+      "exposure_note": "Public shutdown report made available to all 24 voices. Initial universal awareness is a model assumption; no firm-level government receivable or SBA exposure is assigned.",
+      "timing_note": "This public shutdown announcement is released in week 7 only. Duration, affected services and federal-worker pay timing are unknown. No reopening is confirmed and no legal deadline extension is established. Individual profiles do not specify federal-vendor status, a pending SBA loan, furloughed staff or an actually overdue federal invoice: discuss those risks conditionally rather than inventing personal impact."
+    },
+    {
+      "id": "ce2191f1b12cd517466e97dd741d9089",
+      "week": 8,
+      "title": "Government shutdown \u2014 update",
+      "text": "The Senate passed a short-term funding bill; the House plans to vote after Christmas. Federal workers have been told they will get back pay once the government reopens. Their December 30 paycheck may be missed.",
+      "audience_ids": [],
+      "affected": [],
+      "hypothetical": false,
+      "updates_source_ids": [
+        "244a9674d2f18508b1f1f5889193391b"
+      ],
+      "source_sha256": "6838105838560e8f92cce68c5fefd0c6ca2db92fdb2894758c0b8d2f62516537",
+      "original_announcement": {
+        "id": "ce2191f1b12cd517466e97dd741d9089",
+        "title": "Government shutdown \u2014 update",
+        "body": "The Senate passed a short-term funding bill; the House plans to vote after Christmas. Federal workers have been told they will get back pay once the government reopens. Their December 30 paycheck may be missed.",
+        "company_id": "quillbook",
+        "publish_at": "2026-10-24T16:30:00+03:00",
+        "published_at": "2026-10-24T16:30:00+03:00"
+      },
+      "exposure_note": "Public update available to all24 from week8; no newly assigned personal federal-contract, federal-worker or SBA exposure. This routing is a modeling assumption.",
+      "timing_note": "Week8 is December21\u201327. Senate passage is confirmed; the House only plans a vote after Christmas. No government reopening, House passage or restored IRS/SBA services is confirmed. Federal workers were told back pay will come once government reopens; it has not been paid. December30 is in week9 and a missed paycheck is a possibility, not an already observed loss. Do not invent a shutdown end date or Quillbook responsibility for federal wages."
+    }
+  ]
+}

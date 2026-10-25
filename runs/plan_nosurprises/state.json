@@ -1,0 +1,1352 @@
+{
+  "O08": {
+    "statement": "Our annual Pro plan renewal is up this week, and with the capped 10% increase, renewing makes sense. Support took around six hours when contacted, but our daily invoicing is steady and maintaining continuity for January 1099 filings is our priority.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.81
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.14
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.1,
+        "renewal_fraction": 0.88,
+        "memory": "Week 10: Processed our annual renewal at the 10% rate. Invoicing workflows remain reliable and support turnaround was about six hours during active 1099 preparations."
+      }
+    ],
+    "beliefs": [
+      "Daily invoice matching prevents backlogs during high-volume periods.",
+      "The 10% renewal cap makes staying on Pro plan cost-effective for now.",
+      "Maintaining software continuity is essential while completing January 1099 filings."
+    ],
+    "influences": [
+      {
+        "message_id": "8c9cc8e0e05a47911704aabf7f3a790ca2c80306ffb74843eafb60f748d179c1-message-0",
+        "effect": "no_change",
+        "explanation": "We handle payroll outside Quillbook and have no wage adjustments, so the reminder does not alter our software renewal decision."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A05",
+        "text": "Hi, with our annual renewal here and January 1099 filing underway, have you run into any issues with the new IRS submission system on your side?",
+        "basis": "question",
+        "source_ids": []
+      }
+    ]
+  },
+  "A02": {
+    "statement": "We are navigating the first live payroll runs and 1099 prep work for our restaurant clients this week. Having our clients double-check their wage updates and having access to the dedicated partner phone line keeps things manageable as the new tax tables take effect.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.75
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.25
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Week 10: Monitoring initial live payroll processing and 1099 filings under the new tax tables and IRS system. Clients are actively reviewing wage updates, and dedicated accountant support remains a helpful safeguard."
+      }
+    ],
+    "beliefs": [
+      "Dedicated accountant phone support reduces operational risk during January payroll runs.",
+      "Active monitoring of first live payroll summaries helps catch rate discrepancies early."
+    ],
+    "influences": [
+      {
+        "message_id": "9ede586756293c8baf9172ad024f3cb7f687569ba85574b970a7a761abefad4d-message-1",
+        "effect": "reassurance",
+        "explanation": "O02 confirmed they are finalizing wage adjustments and hours for their first payroll run under the updated tables."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "O02",
+        "text": "Sounds good. Please flag any calculation discrepancies on your initial payroll summary so we can address them promptly before finalizing.",
+        "basis": "opinion",
+        "source_ids": [
+          "profile-A02"
+        ]
+      }
+    ]
+  },
+  "O02": {
+    "statement": "We are getting through our first January shifts and checking our payroll summaries to ensure the updated wage rates applied correctly. Since routine bookkeeping is holding up and switching during service would be too disruptive, we renewed our annual plan under the capped rate.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.87
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.08
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.04
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.01
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": 0.91,
+        "memory": "Week 10: Running our first January shifts with the new wage rates in place. Renewed our annual plan at the capped 10% rate to keep operations running smoothly without the burden of migrating systems during service."
+      }
+    ],
+    "beliefs": [
+      "Running payroll and daily bookkeeping steadily remains essential during busy restaurant shifts.",
+      "Checking our first January payroll summary will confirm whether the updated wage rates processed properly.",
+      "Avoiding software changes mid-season prevents operational disruption on the floor."
+    ],
+    "influences": [
+      {
+        "message_id": "7d84f58810cd70539ed47582467e2d52d65c0c00b2123cc17e3802762a3dd089-message-0",
+        "effect": "reassurance",
+        "explanation": "A01 confirmed that having wage adjustments in place ahead of time prevents discrepancies on our initial January payroll."
+      },
+      {
+        "message_id": "a864fa6f0d89aeadcf85d4c85e7b4179dc93d980f360e4d8b63be568b5052e41-message-0",
+        "effect": "reassurance",
+        "explanation": "A02 gave practical advice to review our initial payroll summaries to verify that new rates applied cleanly."
+      },
+      {
+        "message_id": "3df409e65490c5cc424014c078d4729c97a1e97abb3238434f92e28bc0eef400-message-0",
+        "effect": "reassurance",
+        "explanation": "A03 recommended early verification of wage adjustments against tax tables as January processing begins."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A02",
+        "text": "Thanks for the reminder. We are reviewing our first payroll summary closely to confirm the wage adjustments took effect properly without interrupting shift operations.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "profile-O02"
+        ]
+      },
+      {
+        "recipient": "A01",
+        "text": "Appreciate the note. The wage updates were entered ahead of time and our first January run is underway.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "profile-O02"
+        ]
+      }
+    ]
+  },
+  "O04": {
+    "statement": "We renewed our annual plan this week with the ten percent adjustment in place. Support response took about six hours during the January rush, but our payroll and bookkeeping are running without issue and stability is what matters most for our logistics schedules right now.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": 0.88,
+        "memory": "Week 10: Renewed annual plan under the 10% adjustment offer. Support response averaged around six hours during January volume, but core bookkeeping and payroll operations proceeded smoothly. A06 is on standby via their dedicated accountant line for any tax calculation issues."
+      }
+    ],
+    "beliefs": [
+      "Support response times are hovering around six hours during the January peak period.",
+      "Maintaining workflow continuity in Quillbook presents lower operational risk than migrating systems during active delivery schedules.",
+      "Accountants having access to a dedicated support line provides a useful safety net if payroll tax adjustments need quick review."
+    ],
+    "influences": [
+      {
+        "message_id": "6ca2f553c73ad57f11ca68a95d7a83621fe46db53884a83e516281b57f1811c7-message-0",
+        "effect": "reassurance",
+        "explanation": "A06 confirmed that getting contractor address and tax ID verification sorted early prevents filing snags under the new 1099 system."
+      },
+      {
+        "message_id": "44d5bd1141363284b133335250f56b31d82951c87a7e4b76c4d0169621fd5dc4-message-0",
+        "effect": "reassurance",
+        "explanation": "A06 agreed with keeping workflow stability during renewals and offered to escalate any payroll tax issues via their direct accountant line."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A06",
+        "text": "Thanks, we will reach out immediately if any tax table discrepancies show up on the initial January payroll run.",
+        "basis": "opinion",
+        "source_ids": [
+          "profile-O04"
+        ]
+      }
+    ]
+  },
+  "B07": {
+    "statement": "We decided to stay with Quillbook under the 10% renewal cap for now. Migrating our daily invoicing and reconciliation during a busy retail period would cause too much disruption, even though I will keep an eye on software costs.",
+    "status": "stays but unhappy",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.3
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.4
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.28
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.02
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Week 10 (early Jan). Renewed under the 10% price cap offer to maintain operational continuity for store invoicing and reconciliations. A07 concurred that avoiding migration friction during peak season is best. Will review rival alternatives once retail trade normalizes."
+      }
+    ],
+    "beliefs": [
+      "I believe sticking with the 10% price cap renewal is the safest path to avoid bookkeeping disruption during our peak retail period.",
+      "I believe we should compare rival accounting tools and pricing after the busy season ends."
+    ],
+    "influences": [
+      {
+        "message_id": "7a0ea071cfe981b82d7658cbf59516339b493ba54b99aa8d93d51392e0a4b3a2-message-0",
+        "effect": "reassurance",
+        "explanation": "A07 recommended staying to avoid migration friction during year-end close."
+      },
+      {
+        "message_id": "0a7a9a1b7f267aacf5852f666021681db5848eb30072f22042b0b0d47ec87309-message-0",
+        "effect": "reassurance",
+        "explanation": "A07 confirmed that renewing preserves steady daily bookkeeping during peak filing season."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A07",
+        "text": "Thanks for confirming. We're sticking with Quillbook for now to keep our shop invoicing smooth, and we'll re-evaluate costs later.",
+        "basis": "opinion",
+        "source_ids": []
+      }
+    ]
+  },
+  "B02": {
+    "statement": "Our plan renews this week, and we are staying with Quillbook. Our multi-location bookkeeping continues to operate smoothly, and renewing now under the 10% capped rate avoids operational disruption while we coordinate contractor records across branches for 1099 filings.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": 0.88,
+        "memory": "Week 10: Multi-location bookkeeping remains stable through early January. Support wait time averaged around 6 hours. Proceeded with week 10 renewal under the 10% capped pricing while coordinating branch contractor records for 1099 filing."
+      }
+    ],
+    "beliefs": [
+      "Keeping payroll outside Quillbook keeps our core multi-location bookkeeping insulated from payroll-tax table changes.",
+      "The 10% renewal pricing cap keeps annual costs predictable for our week 10 renewal.",
+      "Organizing contractor data early across branches prevents bottlenecks during peak January 1099 submission deadlines."
+    ],
+    "influences": [
+      {
+        "message_id": "70cc8a5614e17685d1608ea68bf901f6bc06b47a84a09a7ee8afb0000d37f4a9-message-0",
+        "effect": "reassurance",
+        "explanation": "A04 confirmed that organizing contractor records in advance helps avoid peak filing bottlenecks, aligning with our current branch coordination."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A04",
+        "text": "We are completing our renewal this week and have organized contractor records across all branch locations to ensure 1099 filing proceeds smoothly without workflow disruptions.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "profile-B02"
+        ]
+      }
+    ]
+  },
+  "B01": {
+    "statement": "Handling minimum wage changes took much longer than planned because direct support kept me waiting for over six hours. Having our accountant offer their partner line is a relief, and the renewal price staying at the ten percent cap keeps the owner satisfied on cost, but the wait times during payroll weeks are really frustrating.",
+    "status": "stays but unhappy",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.18
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.53
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.27
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.02
+          }
+        ],
+        "trust": 2,
+        "satisfaction": 2,
+        "support_contact_fraction": 0.4,
+        "renewal_fraction": null,
+        "memory": "Week 10: Direct support wait times averaged over six hours during initial January wage adjustments, creating store workflow friction. Coordinating with accountant partner line provides a helpful backup, while the capped renewal rate preserves cost approval from the business owner."
+      }
+    ],
+    "beliefs": [
+      "Direct support response times above six hours interrupt retail store duties during payroll weeks.",
+      "Partner support channels offer a faster route for critical wage adjustment questions.",
+      "The 10% price cap keeps software expenses aligned with owner expectations."
+    ],
+    "influences": [
+      {
+        "message_id": "698281e610d3e3444424fd604bd4610956dd2211417d9036c22e4b0d8e3c7bf5-repair-1-message-0",
+        "effect": "reassurance",
+        "explanation": "Learning their partner line wait was under two hours gives me an alternative when direct queues disrupt shop payroll."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A08",
+        "text": "Thanks for offering to coordinate. Our direct support wait was around six hours this week, so routing wage adjustment questions through your line will save significant time away from floor duties.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "support-10-B01"
+        ]
+      }
+    ]
+  },
+  "O01": {
+    "statement": "We are getting through early January with our contractor records ready and payroll queued up. Keeping the software bill manageable and paydays reliable lets us stay focused on our job sites.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "less_flexible",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Week 10: Early January payroll runs underway smoothly alongside contractor 1099 preparations. Stability on the job site is paramount, so we remain steady with Quillbook."
+      },
+      {
+        "segment": "more_flexible",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.8
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.15
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Week 10: First working week of January with accountant coordination on tax tables and filings. Keeping current workflow intact to avoid payroll hiccups."
+      }
+    ],
+    "beliefs": [
+      "Early January payroll runs and 1099 preparations are moving ahead smoothly without major hitches.",
+      "Staying with our current setup avoids disruptions while managing busy job sites."
+    ],
+    "influences": [
+      {
+        "message_id": "f2cd75e69a608c792f8da9a6b0aab64fe8564ddb49bd2e2f7f48bdec1521d7cf-message-0",
+        "effect": "reassurance",
+        "explanation": "A01 reaffirmed that having contractor records organized keeps January filings and early payroll runs manageable."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A01",
+        "text": "Thanks for confirming. We will focus on running our job sites and keep you posted if anything unexpected shows up on payroll.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "profile-O01"
+        ]
+      }
+    ]
+  },
+  "O06": {
+    "statement": "We are renewing our annual plan this week at the discounted 10% rate adjustment. Our IT team continues to oversee 1099 preparation and payroll tax tables, and operations remain smooth with our accountant ready to assist.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": 0.88,
+        "memory": "Week 10: Completed annual renewal under the 10% price adjustment offer. Internal IT is tracking payroll tax table updates and 1099 processing. Having accountant escalation channels active supports operational continuity."
+      }
+    ],
+    "beliefs": [
+      "The 10% renewal adjustment makes staying with Quillbook practical and cost-effective for our construction operations.",
+      "Internal IT oversight is sufficient to catch any data or tax table discrepancies early.",
+      "Our accountant having dedicated escalation channels provides adequate backup during year-end filing."
+    ],
+    "influences": [
+      {
+        "message_id": "698281e610d3e3444424fd604bd4610956dd2211417d9036c22e4b0d8e3c7bf5-repair-1-message-1",
+        "effect": "reassurance",
+        "explanation": "Confirmation that our accountant has dedicated escalation lines ready provides reassurance as we process year-end 1099s."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A08",
+        "text": "Thanks for confirming your escalation access. We are renewing our plan this week under the 10% price adjustment and will coordinate with you if our IT staff spots any 1099 or tax table discrepancies.",
+        "basis": "supplied_information",
+        "source_ids": [
+          "decision-1",
+          "decision-2"
+        ]
+      }
+    ]
+  },
+  "O03": {
+    "statement": "Support responses are still taking about six hours, which is slower than I would like, but our daily bookkeeping and invoicing screens are working without trouble. Since our renewal is settled and our payroll is handled externally, sticking with our familiar setup is the right call to avoid disruptions in the shop.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.69
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.25
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.06
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Week 10: Support response times remain around 6 hours. Core invoicing and bookkeeping workflows remain stable in the shop. With renewal completed in week 9 and payroll managed externally, priority remains on daily operational continuity."
+      }
+    ],
+    "beliefs": [
+      "Routine invoicing and bookkeeping screens continue to work reliably for daily shop management.",
+      "Support response times remain slow at approximately six hours.",
+      "Maintaining familiar software workflows avoids operational confusion during our busy retail period."
+    ],
+    "influences": [
+      {
+        "message_id": "f60685309cdd842bf4e4da02fe026b5283a2c7a01547a4dba5ed59508e501c75-message-0",
+        "effect": "reassurance",
+        "explanation": "My accountant confirmed that staying put avoids workflow disruptions and migration friction during the busy season."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A04",
+        "text": "Thanks for confirming. Daily invoicing is running fine right now, so keeping our current setup makes the most practical sense while we are busy in the shop.",
+        "basis": "opinion",
+        "source_ids": [
+          "profile-O03"
+        ]
+      }
+    ]
+  },
+  "O07": {
+    "statement": "Our daily restaurant bookkeeping, invoicing, and reconciliations are running smoothly into January. Managing payroll outside Quillbook keeps our kitchen and floor operations completely uninterrupted.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.09
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.01
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Week 10: Daily bookkeeping and bank reconciliations remain steady. Handling payroll externally continues to keep restaurant floor operations insulated from software tax table updates. Modeled support wait observed around 6 hours."
+      }
+    ],
+    "beliefs": [
+      "Quillbook reliably handles daily restaurant bookkeeping, invoicing, and bank reconciliations.",
+      "Handling payroll outside Quillbook insulates our restaurant operations from platform tax table updates.",
+      "The 10% renewal adjustment remains manageable for keeping our bookkeeping stable."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A01": {
+    "statement": "We are into the first full week of January with our clients running their first payrolls and getting contractor forms ready. Having the dedicated accountant line and status alerts in place gives us good peace of mind while we tackle early filings.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.85
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.15
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: First full January payroll runs and 1099 filings are underway. Clients O01, O02, and B03 report preparedness with contractor records and wage updates. Dedicated accountant phone line and status alerts provide solid support during active processing."
+      }
+    ],
+    "beliefs": [
+      "Early preparation of contractor records and wage adjustments prevents January payroll and 1099 filing disruptions.",
+      "Dedicated accountant phone support and status alerts provide effective risk mitigation during the January rush."
+    ],
+    "influences": [
+      {
+        "message_id": "86b0ac8db6b4da187a642fc512e56d51a32ec0c6b03d8e468547cc84b8be766b-message-0",
+        "effect": "no_change",
+        "explanation": "Earlier week 9 confirmation of readiness from O01."
+      },
+      {
+        "message_id": "9ede586756293c8baf9172ad024f3cb7f687569ba85574b970a7a761abefad4d-message-0",
+        "effect": "no_change",
+        "explanation": "Earlier week 9 note on finalizing wage adjustments from O02."
+      },
+      {
+        "message_id": "db3c4b467e6136a0cc5dbdd052937bfdd898589f074851ce8e768145f6410a3c-message-0",
+        "effect": "reassurance",
+        "explanation": "B03 confirmed their contractor records are set for 1099 filings as the window opens."
+      },
+      {
+        "message_id": "3f47e7b333802c6c343e6724cdae4cf40dfaf32b2ea69412376bcfc8a5ca4ec9-message-0",
+        "effect": "reassurance",
+        "explanation": "O01 is actively running their first January payroll and monitoring for tax table changes."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "O01",
+        "text": "Sounds like a solid plan. Keep an eye on the new tax tables during this first run so any adjustments are caught right away without delaying payments.",
+        "basis": "supplied_information",
+        "source_ids": [
+          "profile-A01"
+        ]
+      },
+      {
+        "recipient": "B03",
+        "text": "Great to hear your records are in order. Filing those 1099s early in the window helps avoid any last-minute system congestion under the new IRS platform.",
+        "basis": "supplied_information",
+        "source_ids": [
+          "known-year-end-switch"
+        ]
+      }
+    ]
+  },
+  "B04": {
+    "statement": "We are processing our first January payroll and preparing 1099 filings while running manual cross-checks against the updated tax tables. With our annual renewal up this week at the discounted ten percent rate, our priority is keeping payroll and bookkeeping steady under our standard internal controls.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": 0.88,
+        "memory": "Week 10: Processed early January payroll entries and began 1099 prep with internal rate verification. Handled week 10 annual plan renewal under the reduced 10% rate offer."
+      }
+    ],
+    "beliefs": [
+      "First January payroll runs and 1099 prep require strict manual verification against updated tax tables.",
+      "Internal reconciliation controls remain the most reliable way to catch any calculation discrepancies early."
+    ],
+    "influences": [
+      {
+        "message_id": "da06d084be473a3a98631f153e64a7e08218629592298f6095d5d8867b557b51-message-0",
+        "effect": "reassurance",
+        "explanation": "A05 confirms no widespread update issues are currently reported and reinforces our practice of manual verification on first January payrolls."
+      }
+    ],
+    "replies": []
+  },
+  "O05": {
+    "statement": "Now that January 1 has passed, our main priority is reviewing and filing our contractor 1099s. Support response times are sitting around six hours during this rush, but routine bookkeeping and invoicing continue without issue while we coordinate filings with our accountant.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.78
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.05
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.17
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: January 1 switch has passed. Day-to-day bookkeeping remains stable while coordinating contractor 1099 review with accountant A08. Support response times average around six hours during the filing peak."
+      }
+    ],
+    "beliefs": [
+      "Contractor 1099 filings must go through the updated IRS system following January 1.",
+      "Support response times are elevated to approximately six hours during the January peak period.",
+      "Coordinating 1099 reviews directly with our partner accountant helps ensure filing deadlines are met."
+    ],
+    "influences": [
+      {
+        "message_id": "0f4a1fede7daf923fe27ebd35630b1449079eacef52835557530acddb0184c4e-message-1",
+        "effect": "reassurance",
+        "explanation": "A08 confirmed readiness to coordinate and review 1099 submissions promptly."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A08",
+        "text": "Sounds good. Let us know as soon as the review is complete so we can ensure everything is submitted before the rush worsens.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "profile-O05"
+        ]
+      }
+    ]
+  },
+  "B05": {
+    "statement": "We are working through our wage adjustments and 1099 preparation after the January 1 switch. While general support still takes around six hours for us, our accountant confirmed their partner line is running under two hours, which gives us a reliable backup if we hit any filing snags.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.74
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.2
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.06
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Week 10: Handled post-January 1 restaurant wage adjustments and 1099 prep. General support responses stayed around 6 hours, but our accountant confirmed partner line response times around 1.8 hours for urgent escalations."
+      }
+    ],
+    "beliefs": [
+      "Routing critical wage or 1099 filing questions through our accountant's partner channel avoids lengthy general support delays.",
+      "General support response times around 6 hours reflect heavy post-switch seasonal volume.",
+      "Direct software workflow remains manageable for routine restaurant bookkeeping and payroll entries."
+    ],
+    "influences": [
+      {
+        "message_id": "0f4a1fede7daf923fe27ebd35630b1449079eacef52835557530acddb0184c4e-message-0",
+        "effect": "reassurance",
+        "explanation": "Accountant confirmed fast partner support response times under two hours, giving us a dependable escalation path for urgent payroll or 1099 issues."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "A08",
+        "text": "Thank you for letting us know. Because our direct support wait is still averaging about 6 hours, we will route any critical wage adjustment or 1099 filing snags directly through you to keep payroll on schedule.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "support-10-B05"
+        ]
+      }
+    ]
+  },
+  "A04": {
+    "statement": "We are into the first full week of January following the 1099 and payroll tax updates. Dedicated accountant phone support and status alerts are active, with support response times around 1.8 hours. I am keeping advice neutral while monitoring how live filings and payroll runs perform across client accounts.",
+    "status": "neutral",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "neutral",
+            "fraction": 0.72
+          },
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.22
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.06
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: In the first full week of January post-updates. B02 and O03 confirmed they are renewing/staying to maintain operational and invoicing continuity during busy filing season. Dedicated phone support response remains ~1.8 hours. Maintaining neutral stance while observing live filing workflows."
+      }
+    ],
+    "beliefs": [
+      "Upcoming January 1099 and payroll tax changes require stable execution across accounting software.",
+      "Dedicated accountant phone support and status alerts provide useful operational visibility during year-end closing.",
+      "Rival platforms offer a viable alternative if year-end compliance faces significant ongoing disruptions."
+    ],
+    "influences": [
+      {
+        "message_id": "2d6dc55d90b8708c22c38fc6f108cc3a34ef6c737c0e9e2dfdc145fea9bd12db-repair-1-message-0",
+        "effect": "reassurance",
+        "explanation": "B02 reported organizing contractor records across locations ahead of renewal."
+      },
+      {
+        "message_id": "191d6679b9afe7d8e96e981558c48c05ae5a524278ae6ab0316064cda5930dfe-repair-1-message-0",
+        "effect": "reassurance",
+        "explanation": "B02 confirmed proceeding with renewal to maintain multi-location operations without disruption during 1099 filings."
+      },
+      {
+        "message_id": "a5c81d4a0efd044aaec5c3885bf2795e4888ee286153e8ad48b119861718cd97-message-0",
+        "effect": "reassurance",
+        "explanation": "O03 confirmed staying with Quillbook to avoid workflow disruptions in their shop during peak season."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "B02",
+        "text": "Renewing to maintain your multi-location bookkeeping continuity makes practical sense while handling active 1099 compliance.",
+        "basis": "opinion",
+        "source_ids": [
+          "profile-A04"
+        ]
+      }
+    ]
+  },
+  "B08": {
+    "statement": "We are processing our first January payrolls and finalizing contractor 1099s. Support wait times are still around six hours, which is tough during filing season, but we chose to renew our annual plan with the 10% discount to keep logistics operations running smoothly without disruption.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.76
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.18
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.01
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": 0.88,
+        "memory": "Week 10: Executed annual renewal under the 10% promotional increase to maintain operational continuity. Managed first January payrolls and ongoing 1099 preparation despite continued six-hour support response times."
+      }
+    ],
+    "beliefs": [
+      "Maintaining uninterrupted logistics payroll and 1099 filings in January takes priority over exploring software switches.",
+      "Support response times are likely to stay around six hours while peak year-end and January filings are underway."
+    ],
+    "influences": [],
+    "replies": []
+  },
+  "A07": {
+    "statement": "We are right in the thick of early January tax and payroll adjustments. Clients are staying on track with their year-end reconciliations, and having the dedicated accountant phone line and status alerts gives our practice solid backing as filings ramp up.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.89
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.11
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: First full week of January payroll changes and 1099 preparations underway. Clients are choosing renewal continuity over disruptive mid-season migrations. Partner support line and alerts remain valuable safety nets."
+      }
+    ],
+    "beliefs": [
+      "Dedicated accountant phone support and status alerts provide practical backup during peak January tax workflows.",
+      "Maintaining software continuity through year-end avoids operational disruption for clients during active filing periods.",
+      "Early reconciliation of contractor payments and W-9s prevents filing bottlenecks under the updated IRS 1099 requirements."
+    ],
+    "influences": [
+      {
+        "message_id": "3eaeaa8d30cfca0394bae5b6040baf8c7c9dbcc6aa9e512df2a76af098818be1-message-0",
+        "effect": "reassurance",
+        "explanation": "Client confirmed accepting the renewal offer to avoid migration friction during busy filing season."
+      },
+      {
+        "message_id": "c0fae6a7ab6e56f67d6fc98bfc78a24cd20d7f9aafc04ee819be7da12033e252-message-0",
+        "effect": "reassurance",
+        "explanation": "Client is actively reconciling contractor payments and W-9 details to prepare for 1099 filings."
+      },
+      {
+        "message_id": "1c72b141b774b19ba677221960427b97fff81fa81d6821e4accc993aa5c0c7ca-message-0",
+        "effect": "no_change",
+        "explanation": "Earlier note from client regarding renewal evaluation was followed up by their decision to renew."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "B06",
+        "text": "Sounds good. Verifying those contractor totals and W-9s now ensures your 1099 filings will be accurate and ready to submit without last-minute delays.",
+        "basis": "opinion",
+        "source_ids": []
+      }
+    ]
+  },
+  "A06": {
+    "statement": "We are navigating the first working week of January with the new tax tables and 1099 rules active. Having the dedicated accountant hotline in place alongside responsive support gives us confidence while clients run their initial payrolls.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.88
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.12
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": null,
+        "memory": "Week 10 (early January 2027). First working week of the year with new IRS 1099 rules and payroll tax tables in effect. Modeled support times remain under 2 hours with the dedicated accountant phone line available. Client O04 renewed to maintain weekly payroll continuity."
+      }
+    ],
+    "beliefs": [
+      "A dedicated accountant support line helps resolve initial January payroll questions quickly.",
+      "Avoiding platform migrations during year-end tax and payroll processing protects weekly payroll continuity."
+    ],
+    "influences": [
+      {
+        "message_id": "4e180fefb928066ddfb2b298b3bfc2c06b5ad4c7fa5946d8d45028747b15ba87-message-0",
+        "effect": "reassurance",
+        "explanation": "Client vigilance regarding tax tables on initial payroll runs helps catch potential errors early."
+      },
+      {
+        "message_id": "50854ae971bbd1f9ac6a46eda2af94e7000488e7aaab57f5464783ab6e73596f-message-0",
+        "effect": "reassurance",
+        "explanation": "Client decision to renew preserves operational stability during peak January payroll processing."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "O04",
+        "text": "Renewing now makes operational sense because switching platforms during peak January tax and payroll runs introduces unnecessary disruption risk.",
+        "basis": "opinion",
+        "source_ids": []
+      }
+    ]
+  },
+  "A08": {
+    "statement": "With the January 1 rollout underway, our dedicated partner line continues to give us rapid support in under two hours. That allows us to coordinate payroll updates and 1099 filings smoothly for our clients, even while general queues are seeing standard seasonal pressure.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "less_flexible",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.75
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.25
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: January 1 switch is active. Partner support line response remains steady at ~1.8 hours, keeping client payroll and 1099 reviews moving on schedule."
+      },
+      {
+        "segment": "more_flexible",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.65
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.25
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.1
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: Clients are actively finalizing 1099 records and wage updates. Dedicated escalation channel helps maintain workflow continuity during the busy tax period."
+      }
+    ],
+    "beliefs": [
+      "Dedicated partner phone access and text alerts help us promptly resolve January payroll and 1099 filing questions.",
+      "Standard client support queues face seasonal peak volume during the early January tax table rollout."
+    ],
+    "influences": [
+      {
+        "message_id": "ee9ccef252b30065c89ec5b394d29e89e2dbe6e48b4e2707f81f63f77c295264-message-0",
+        "effect": "reassurance",
+        "explanation": "Client noted standard wait times but expressed confidence using our partner channel for wage and 1099 updates."
+      },
+      {
+        "message_id": "51d97a035070676ef24de678ca53b0344a7d5f77927b99701627c8d215a38c72-message-0",
+        "effect": "reassurance",
+        "explanation": "Client confirmed contractor figures and W-9s were organized for the January switch."
+      },
+      {
+        "message_id": "cc6708e30e4e882e109483eccabd06d93596ffd0a9bc2bc8db9a45b55df6dc72-message-0",
+        "effect": "reassurance",
+        "explanation": "Client appreciates routing wage adjustments through our partner line to save time."
+      },
+      {
+        "message_id": "e93e1659c9dae0c80b5f8479ffeecb4e19250534629a1cafda7d16d90edb4be7-message-0",
+        "effect": "question",
+        "explanation": "Client asked if we have observed any filing discrepancies with the new 1099 format or tax tables."
+      },
+      {
+        "message_id": "b6cb287fa703bb973e0306f15e7c8c1c1b127b61d4e952b9452bee080f1316db-message-0",
+        "effect": "reassurance",
+        "explanation": "Client is ready to review and submit contractor 1099 filings now that January 1 has arrived."
+      },
+      {
+        "message_id": "fa2033b5063da6041de8b35efc522f406e2fbded79cb9724a4138af950db4854-message-0",
+        "effect": "reassurance",
+        "explanation": "Client is renewing under the adjusted rate and monitoring tax tables with their IT team."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "B08",
+        "text": "We have not encountered system discrepancies on our side so far. Send over your draft numbers and we can review the 1099 totals together to verify accuracy before submission.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "support-10-A08"
+        ]
+      },
+      {
+        "recipient": "O05",
+        "text": "We are ready to review your contractor 1099 figures this week so we can verify details and file well ahead of the deadline.",
+        "basis": "opinion",
+        "source_ids": []
+      }
+    ]
+  },
+  "B06": {
+    "statement": "We are renewing our annual plan this week under the adjusted rate while working through contractor payment reconciliations. Routine bookkeeping and invoicing are running steadily, so staying put makes the most practical sense to avoid disruption during tax preparation.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.85
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.1
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.05
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 3,
+        "satisfaction": 3,
+        "support_contact_fraction": 0.05,
+        "renewal_fraction": 0.85,
+        "memory": "Week 10: Annual plan renewal completed under the 10% rate offer. Core bookkeeping and invoicing remain steady while we finalize contractor reconciliations for 1099 filings."
+      }
+    ],
+    "beliefs": [
+      "Quillbook continues to support our daily bookkeeping and invoicing without major disruption.",
+      "The 10% rate adjustment makes renewing our annual plan practical to maintain workflow continuity.",
+      "Contractor payment verification is necessary to ensure 1099 reporting proceeds smoothly."
+    ],
+    "influences": [
+      {
+        "message_id": "7a0ea071cfe981b82d7658cbf59516339b493ba54b99aa8d93d51392e0a4b3a2-message-1",
+        "effect": "reassurance",
+        "explanation": "A07 gave practical advice to verify W-9 details and reconcile contractor records ahead of 1099 filing."
+      }
+    ],
+    "replies": []
+  },
+  "B03": {
+    "statement": "Daily invoicing and bank reconciliations are running smoothly into the first full week of January. Keeping our contractor records organized in advance is helping me manage 1099 preparations alongside my normal administrative workload.",
+    "status": "stays",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "stays",
+            "fraction": 0.93
+          },
+          {
+            "status": "stays but unhappy",
+            "fraction": 0.05
+          },
+          {
+            "status": "looking at rivals",
+            "fraction": 0.02
+          },
+          {
+            "status": "moved to a rival",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.02,
+        "renewal_fraction": null,
+        "memory": "Week 10: Invoicing and bank feeds operate normally in the first working week of January. Contractor records are organized for 1099 submissions, maintaining routine workflow without software friction."
+      }
+    ],
+    "beliefs": [
+      "Quillbook continues to handle our daily invoicing and bank reconciliations smoothly.",
+      "Having contractor details organized early keeps 1099 filings manageable alongside administrative duties.",
+      "Current software stability confirms sticking with our existing setup is the most practical choice."
+    ],
+    "influences": [
+      {
+        "message_id": "f2cd75e69a608c792f8da9a6b0aab64fe8564ddb49bd2e2f7f48bdec1521d7cf-message-1",
+        "effect": "reassurance",
+        "explanation": "A01 confirmed that finalizing contractor details ahead of time avoids crunches as filing opens."
+      }
+    ],
+    "replies": []
+  },
+  "A03": {
+    "statement": "Early January payroll runs and 1099 preparations are moving along steadily. Having support pick up in under two hours on the dedicated accountant line gives me confidence that we can handle any contractor filing snags promptly.",
+    "status": "neutral",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.55
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.45
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.0
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.1,
+        "renewal_fraction": null,
+        "memory": "Week 10: Early January payroll runs and 1099 preparation are underway. Observed support response time around 1.8 hours on the dedicated accountant line. Monitoring filing workflows closely."
+      }
+    ],
+    "beliefs": [
+      "The dedicated accountant phone line and sub-two-hour support turnaround provide practical coverage for early January construction payroll and 1099 filings.",
+      "Early organization of contractor records reduces compliance risks during new IRS 1099 submission changes."
+    ],
+    "influences": [
+      {
+        "message_id": "5c87503e1b1ae78122e6376d48e080ab611a52b3e99eb46774398cffea7ea73e-message-0",
+        "effect": "reassurance",
+        "explanation": "B03 confirmed that early contractor data prep helps keep sole-operator bookkeeping manageable."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "B03",
+        "text": "Glad to hear it. Having those records ready early makes reconciling contractor payments and filing 1099s much smoother during these first working weeks of January.",
+        "basis": "personal_experience",
+        "source_ids": [
+          "profile-A03"
+        ]
+      }
+    ]
+  },
+  "A05": {
+    "statement": "We are working through the first week of January payrolls and preparing 1099 filings. With support wait times running around 1.8 hours and our partner phone line active, we are staying focused on manual cross-checks against the updated tax tables.",
+    "status": "recommends Quillbook",
+    "segments": [
+      {
+        "segment": "main",
+        "choices": [
+          {
+            "status": "recommends Quillbook",
+            "fraction": 0.75
+          },
+          {
+            "status": "neutral",
+            "fraction": 0.2
+          },
+          {
+            "status": "steering clients away",
+            "fraction": 0.05
+          }
+        ],
+        "trust": 4,
+        "satisfaction": 4,
+        "support_contact_fraction": 0.15,
+        "renewal_fraction": null,
+        "memory": "Week 10 commenced January payroll processing and 1099 preparation under the new statutory rates. Dedicated partner phone support and incident alerts continue to provide manageable access as clients complete their initial manual cross-checks."
+      }
+    ],
+    "beliefs": [
+      "Maintaining daily invoice matching and reconciliations prevents retail clients from accumulating difficult backlogs during year-end closing.",
+      "The dedicated partner phone line provides essential real-time access to resolve urgent payroll and 1099 filing issues during January."
+    ],
+    "influences": [
+      {
+        "message_id": "dca3c03100469aa547ea78575ca95854e5120a460267904541927f9e832f92ca-repair-1-message-0",
+        "effect": "reassurance",
+        "explanation": "Client confirmed they are running manual cross-checks on initial January payroll entries against the new tax tables."
+      },
+      {
+        "message_id": "7d5973f6eebd5875b6a132fe80ff5c084a3da4d3e8f8e12399d7aacbd127a9fe-message-0",
+        "effect": "question",
+        "explanation": "Client inquired whether any issues have emerged regarding the new IRS 1099 submission system."
+      }
+    ],
+    "replies": [
+      {
+        "recipient": "O08",
+        "text": "We have not encountered confirmed submission failures on our side yet, but I advise verifying contractor totals before uploading because the IRS system format changed as of January 1.",
+        "basis": "supplied_information",
+        "source_ids": [
+          "known-year-end-switch"
+        ]
+      }
+    ]
+  }
+}

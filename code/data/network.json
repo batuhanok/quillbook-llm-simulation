@@ -1,0 +1,818 @@
+[
+  {
+    "source": "A04",
+    "target": "O03",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 967,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.22488372093023257
+  },
+  {
+    "source": "O03",
+    "target": "A04",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 967,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.604375
+  },
+  {
+    "source": "A08",
+    "target": "O03",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 1613,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.37511627906976747
+  },
+  {
+    "source": "O03",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 1613,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.16802083333333334
+  },
+  {
+    "source": "A08",
+    "target": "O06",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 900,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.6
+  },
+  {
+    "source": "O06",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 900,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.09375
+  },
+  {
+    "source": "A08",
+    "target": "O05",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 2580,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.6
+  },
+  {
+    "source": "O05",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 2580,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.26875
+  },
+  {
+    "source": "A08",
+    "target": "O04",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 713,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.31
+  },
+  {
+    "source": "O04",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 713,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.07427083333333333
+  },
+  {
+    "source": "A06",
+    "target": "O04",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 667,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.29
+  },
+  {
+    "source": "O04",
+    "target": "A06",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 667,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.5558333333333333
+  },
+  {
+    "source": "A06",
+    "target": "O08",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 59,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.024583333333333332
+  },
+  {
+    "source": "O08",
+    "target": "A06",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 59,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.049166666666666664
+  },
+  {
+    "source": "A05",
+    "target": "O08",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 1381,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.5754166666666667
+  },
+  {
+    "source": "O08",
+    "target": "A05",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 1381,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.5754166666666667
+  },
+  {
+    "source": "A05",
+    "target": "O07",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 70,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.0175
+  },
+  {
+    "source": "O07",
+    "target": "A05",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 70,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.029166666666666667
+  },
+  {
+    "source": "A07",
+    "target": "O07",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 2330,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.5825
+  },
+  {
+    "source": "O07",
+    "target": "A07",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 2330,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.3236111111111111
+  },
+  {
+    "source": "A07",
+    "target": "O01",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 2024,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.4819047619047619
+  },
+  {
+    "source": "O01",
+    "target": "A07",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 2024,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.2811111111111111
+  },
+  {
+    "source": "A01",
+    "target": "O01",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 496,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1180952380952381
+  },
+  {
+    "source": "O01",
+    "target": "A01",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 496,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.496
+  },
+  {
+    "source": "A01",
+    "target": "O02",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 109,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.04541666666666667
+  },
+  {
+    "source": "O02",
+    "target": "A01",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 109,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.109
+  },
+  {
+    "source": "A03",
+    "target": "O02",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 726,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.3025
+  },
+  {
+    "source": "O02",
+    "target": "A03",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 726,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.605
+  },
+  {
+    "source": "A02",
+    "target": "O02",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 605,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.2520833333333333
+  },
+  {
+    "source": "O02",
+    "target": "A02",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 605,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.605
+  },
+  {
+    "source": "A03",
+    "target": "B03",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 474,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.148125
+  },
+  {
+    "source": "B03",
+    "target": "A03",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 474,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.395
+  },
+  {
+    "source": "A01",
+    "target": "B03",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 395,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1234375
+  },
+  {
+    "source": "B03",
+    "target": "A01",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 395,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.395
+  },
+  {
+    "source": "A08",
+    "target": "B03",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 1051,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.3284375
+  },
+  {
+    "source": "B03",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 1051,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.10947916666666667
+  },
+  {
+    "source": "A08",
+    "target": "B05",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 780,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.6
+  },
+  {
+    "source": "B05",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 780,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.08125
+  },
+  {
+    "source": "A08",
+    "target": "B01",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 1500,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.6
+  },
+  {
+    "source": "B01",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 1500,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.15625
+  },
+  {
+    "source": "A08",
+    "target": "B08",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 463,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.35615384615384615
+  },
+  {
+    "source": "B08",
+    "target": "A08",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 463,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.04822916666666666
+  },
+  {
+    "source": "A05",
+    "target": "B08",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 317,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.24384615384615385
+  },
+  {
+    "source": "B08",
+    "target": "A05",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 317,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.13208333333333333
+  },
+  {
+    "source": "A05",
+    "target": "B04",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 632,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.2528
+  },
+  {
+    "source": "B04",
+    "target": "A05",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 632,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.2633333333333333
+  },
+  {
+    "source": "A02",
+    "target": "B04",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 395,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.158
+  },
+  {
+    "source": "B04",
+    "target": "A02",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 395,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.395
+  },
+  {
+    "source": "A07",
+    "target": "B04",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 473,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1892
+  },
+  {
+    "source": "B04",
+    "target": "A07",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 473,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.06569444444444444
+  },
+  {
+    "source": "A07",
+    "target": "B06",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 780,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.6
+  },
+  {
+    "source": "B06",
+    "target": "A07",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 780,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.10833333333333334
+  },
+  {
+    "source": "A07",
+    "target": "B07",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 1593,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.5138709677419355
+  },
+  {
+    "source": "B07",
+    "target": "A07",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 1593,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.22125
+  },
+  {
+    "source": "A06",
+    "target": "B07",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 267,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.08612903225806452
+  },
+  {
+    "source": "B07",
+    "target": "A06",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 267,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.2225
+  },
+  {
+    "source": "A06",
+    "target": "B02",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 207,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.14785714285714285
+  },
+  {
+    "source": "B02",
+    "target": "A06",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 207,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1725
+  },
+  {
+    "source": "A04",
+    "target": "B02",
+    "kind": "accountant_advises_client",
+    "businesses_linked": 633,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.4521428571428571
+  },
+  {
+    "source": "B02",
+    "target": "A04",
+    "kind": "client_asks_accountant",
+    "businesses_linked": 633,
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.395625
+  },
+  {
+    "source": "O01",
+    "target": "O02",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O02",
+    "target": "O01",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O02",
+    "target": "O03",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O03",
+    "target": "O02",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O03",
+    "target": "O04",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O04",
+    "target": "O03",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O04",
+    "target": "O05",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O05",
+    "target": "O04",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O05",
+    "target": "O06",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O06",
+    "target": "O05",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O06",
+    "target": "O07",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O07",
+    "target": "O06",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O07",
+    "target": "O08",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O08",
+    "target": "O07",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O08",
+    "target": "O01",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "O01",
+    "target": "O08",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B01",
+    "target": "B02",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B02",
+    "target": "B01",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B02",
+    "target": "B03",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B03",
+    "target": "B02",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B03",
+    "target": "B04",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B04",
+    "target": "B03",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B04",
+    "target": "B05",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B05",
+    "target": "B04",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B05",
+    "target": "B06",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B06",
+    "target": "B05",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B06",
+    "target": "B07",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B07",
+    "target": "B06",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B07",
+    "target": "B08",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B08",
+    "target": "B07",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B08",
+    "target": "B01",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "B01",
+    "target": "B08",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A01",
+    "target": "A02",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A02",
+    "target": "A01",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A02",
+    "target": "A03",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A03",
+    "target": "A02",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A03",
+    "target": "A04",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A04",
+    "target": "A03",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A04",
+    "target": "A05",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A05",
+    "target": "A04",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A05",
+    "target": "A06",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A06",
+    "target": "A05",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A06",
+    "target": "A07",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A07",
+    "target": "A06",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A07",
+    "target": "A08",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A08",
+    "target": "A07",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A08",
+    "target": "A01",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  },
+  {
+    "source": "A01",
+    "target": "A08",
+    "kind": "peer",
+    "initial_trust": "medium",
+    "recipient_reach_share": 0.1
+  }
+]

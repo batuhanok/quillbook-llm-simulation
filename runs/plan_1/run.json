@@ -1,0 +1,66 @@
+{
+  "company": "quillbook",
+  "type": "plan",
+  "seed": 42,
+  "model": "gemini-3.7-flash",
+  "model_version": "calendar-grounded-v3",
+  "decisions": [
+    {
+      "week": 5,
+      "target": "everyone",
+      "actions": [
+        {
+          "action": "Renewal price for plans renewing in weeks 9 and 10",
+          "level": "+10% instead of +20%"
+        },
+        {
+          "action": "40 extra year-end support staff for 6 weeks",
+          "level": "on"
+        },
+        {
+          "action": "Outside year-end update testing team",
+          "level": "on"
+        }
+      ],
+      "message": "Year-end is coming and we want you to be ready. If your annual plan renews in late December or early January, the increase is 10%, not the 20% we planned. We have added 40 support specialists through mid-January and an outside team is testing our January 1 update for the new IRS 1099 system, state minimum wages and tax tables. Exporting your data stays free, always.",
+      "channels": [
+        "email",
+        "in-app"
+      ],
+      "why": [
+        "A third of annual plans renew in January; a 20% rise at the riskiest moment invites churn.",
+        "Year-end support answers in 8 hours; the board wants 4.",
+        "Testing is only 80% done; an outside team lowers the chance of payroll failures on Jan 1."
+      ]
+    },
+    {
+      "week": 8,
+      "target": "everyone",
+      "actions": [
+        {
+          "action": "Dedicated accountant phone line for 6 weeks",
+          "level": "on"
+        },
+        {
+          "action": "Public status page, incident reports and accountant text alerts",
+          "level": "on"
+        },
+        {
+          "action": "Accountant commission 10% → 20%, 6 months",
+          "level": "on"
+        }
+      ],
+      "message": "With IRS phone lines closed during the federal shutdown and the January 1 changes here, you need answers from us fast. From today partner accountants have a dedicated Quillbook phone line through early February, and for the next six months your commission on renewing and new clients doubles from 10% to 20%. Our public status page reports any Quillbook incident with text alerts to you. We are also sorry for the late deposits in November.",
+      "channels": [
+        "email",
+        "accountants"
+      ],
+      "why": [
+        "IRS phone lines are closed, so accountants lose a source of answers during the January 1 switch.",
+        "Accountants decide for 60% of customers; a direct line, honest incident reports and a higher commission keep them with us.",
+        "The commission rewards keeping clients through the 1099 deadline and February, when the CEO fears they move."
+      ]
+    }
+  ],
+  "development": false
+}
